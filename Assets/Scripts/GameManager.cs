@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public Text goldText;
     public Text gemText;
 
+    public GameObject grid;
+    private Building buildingToPlace;
+
     private void Update()
     {
         goldText.text = gold.ToString();
@@ -18,6 +21,11 @@ public class GameManager : MonoBehaviour
 
     public void BuyBuilding(Building building) 
     {
-    
+        if (gold >= building.goldCost && gem >= building.gemCost) 
+        {
+            gold -= building.goldCost;
+            gem -= building.gemCost;
+            buildingToPlace = building;
+        }
     }
 }
