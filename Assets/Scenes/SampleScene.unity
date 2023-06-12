@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 19882999}
   - component: {fileID: 19883000}
+  - component: {fileID: 19883001}
   m_Layer: 0
   m_Name: tile-empty (97)
   m_TagString: Untagged
@@ -207,6 +208,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &19883001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19882998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &23182167
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 23182168}
   - component: {fileID: 23182169}
+  - component: {fileID: 23182170}
   m_Layer: 0
   m_Name: tile-empty (12)
   m_TagString: Untagged
@@ -291,6 +308,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &23182170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23182167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &34136787
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 34136788}
   - component: {fileID: 34136789}
+  - component: {fileID: 34136790}
   m_Layer: 0
   m_Name: tile-empty (93)
   m_TagString: Untagged
@@ -375,6 +408,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &34136790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34136787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &34555035
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 34555036}
   - component: {fileID: 34555037}
+  - component: {fileID: 34555038}
   m_Layer: 0
   m_Name: tile-empty (14)
   m_TagString: Untagged
@@ -459,6 +508,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &34555038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34555035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &37405318
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,6 +690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 69312530}
   - component: {fileID: 69312531}
+  - component: {fileID: 69312532}
   m_Layer: 0
   m_Name: tile-empty
   m_TagString: Untagged
@@ -700,6 +765,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &69312532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69312529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &75170727
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,6 +946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 116949050}
   - component: {fileID: 116949051}
+  - component: {fileID: 116949052}
   m_Layer: 0
   m_Name: tile-empty (30)
   m_TagString: Untagged
@@ -940,6 +1021,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &116949052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116949049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &118190675
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,6 +1046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 118190676}
   - component: {fileID: 118190677}
+  - component: {fileID: 118190678}
   m_Layer: 0
   m_Name: tile-empty (83)
   m_TagString: Untagged
@@ -1024,6 +1121,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &118190678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118190675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &140410677
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 186693942}
   - component: {fileID: 186693943}
+  - component: {fileID: 186693944}
   m_Layer: 0
   m_Name: tile-empty (55)
   m_TagString: Untagged
@@ -1185,6 +1298,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &186693944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186693941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &193186041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,6 +1402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 225943352}
   - component: {fileID: 225943353}
+  - component: {fileID: 225943354}
   m_Layer: 0
   m_Name: tile-empty (50)
   m_TagString: Untagged
@@ -1348,6 +1477,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &225943354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225943351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &230989782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230989783}
   - component: {fileID: 230989784}
+  - component: {fileID: 230989785}
   m_Layer: 0
   m_Name: tile-empty (82)
   m_TagString: Untagged
@@ -1432,6 +1577,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &230989785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230989782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &234681543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 234681544}
   - component: {fileID: 234681545}
+  - component: {fileID: 234681546}
   m_Layer: 0
   m_Name: tile-empty (10)
   m_TagString: Untagged
@@ -1516,6 +1677,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &234681546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234681543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &238358858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1526,6 +1702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 238358859}
   - component: {fileID: 238358860}
+  - component: {fileID: 238358861}
   m_Layer: 0
   m_Name: tile-empty (87)
   m_TagString: Untagged
@@ -1600,6 +1777,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &238358861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238358858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &264475778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +1802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 264475779}
   - component: {fileID: 264475780}
+  - component: {fileID: 264475781}
   m_Layer: 0
   m_Name: tile-empty (24)
   m_TagString: Untagged
@@ -1684,6 +1877,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &264475781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264475778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &269295515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,6 +1902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269295516}
   - component: {fileID: 269295517}
+  - component: {fileID: 269295518}
   m_Layer: 0
   m_Name: tile-empty (85)
   m_TagString: Untagged
@@ -1768,6 +1977,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &269295518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269295515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &278673680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,6 +2002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 278673681}
   - component: {fileID: 278673682}
+  - component: {fileID: 278673683}
   m_Layer: 0
   m_Name: tile-empty (5)
   m_TagString: Untagged
@@ -1852,6 +2077,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &278673683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278673680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &284189110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +2102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 284189111}
   - component: {fileID: 284189112}
+  - component: {fileID: 284189113}
   m_Layer: 0
   m_Name: tile-empty (22)
   m_TagString: Untagged
@@ -1936,6 +2177,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &284189113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284189110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &286954206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,6 +2202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286954207}
   - component: {fileID: 286954208}
+  - component: {fileID: 286954209}
   m_Layer: 0
   m_Name: tile-empty (40)
   m_TagString: Untagged
@@ -2020,6 +2277,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &286954209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286954206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &292099859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,6 +2302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292099860}
   - component: {fileID: 292099861}
+  - component: {fileID: 292099862}
   m_Layer: 0
   m_Name: tile-empty (38)
   m_TagString: Untagged
@@ -2104,6 +2377,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &292099862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292099859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &294266081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,6 +2556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339687336}
   - component: {fileID: 339687337}
+  - component: {fileID: 339687338}
   m_Layer: 0
   m_Name: tile-empty (9)
   m_TagString: Untagged
@@ -2342,6 +2631,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &339687338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339687335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &354638627
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,6 +2656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 354638628}
   - component: {fileID: 354638629}
+  - component: {fileID: 354638630}
   m_Layer: 0
   m_Name: tile-empty (74)
   m_TagString: Untagged
@@ -2426,6 +2731,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &354638630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354638627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &383469872
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,6 +2833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 387042105}
   - component: {fileID: 387042106}
+  - component: {fileID: 387042107}
   m_Layer: 0
   m_Name: tile-empty (34)
   m_TagString: Untagged
@@ -2587,6 +2908,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &387042107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387042104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &398667765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,6 +2933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398667766}
   - component: {fileID: 398667767}
+  - component: {fileID: 398667768}
   m_Layer: 0
   m_Name: tile-empty (7)
   m_TagString: Untagged
@@ -2671,6 +3008,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &398667768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398667765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &403213684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,6 +3033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 403213685}
   - component: {fileID: 403213686}
+  - component: {fileID: 403213687}
   m_Layer: 0
   m_Name: tile-empty (8)
   m_TagString: Untagged
@@ -2755,6 +3108,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &403213687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403213684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &404263755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,6 +3293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442994784}
   - component: {fileID: 442994785}
+  - component: {fileID: 442994786}
   m_Layer: 0
   m_Name: tile-empty (58)
   m_TagString: Untagged
@@ -2999,6 +3368,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &442994786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442994783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &446203190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3009,6 +3393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 446203191}
   - component: {fileID: 446203192}
+  - component: {fileID: 446203193}
   m_Layer: 0
   m_Name: tile-empty (44)
   m_TagString: Untagged
@@ -3083,6 +3468,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &446203193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446203190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &477525982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3093,6 +3493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477525983}
   - component: {fileID: 477525984}
+  - component: {fileID: 477525985}
   m_Layer: 0
   m_Name: tile-empty (92)
   m_TagString: Untagged
@@ -3167,6 +3568,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &477525985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477525982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &477633584
 GameObject:
   m_ObjectHideFlags: 0
@@ -3177,6 +3593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477633585}
   - component: {fileID: 477633586}
+  - component: {fileID: 477633587}
   m_Layer: 0
   m_Name: tile-empty (27)
   m_TagString: Untagged
@@ -3251,6 +3668,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &477633587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477633584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &485250181
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,6 +3693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485250182}
   - component: {fileID: 485250183}
+  - component: {fileID: 485250184}
   m_Layer: 0
   m_Name: tile-empty (79)
   m_TagString: Untagged
@@ -3335,6 +3768,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &485250184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485250181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &487019318
 GameObject:
   m_ObjectHideFlags: 0
@@ -3345,6 +3793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 487019319}
   - component: {fileID: 487019320}
+  - component: {fileID: 487019321}
   m_Layer: 0
   m_Name: tile-empty (66)
   m_TagString: Untagged
@@ -3419,6 +3868,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &487019321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487019318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &498248409
 GameObject:
   m_ObjectHideFlags: 0
@@ -3511,6 +3975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500272391}
   - component: {fileID: 500272392}
+  - component: {fileID: 500272393}
   m_Layer: 0
   m_Name: tile-empty (32)
   m_TagString: Untagged
@@ -3585,6 +4050,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &500272393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500272390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &500641576
 GameObject:
   m_ObjectHideFlags: 0
@@ -3595,6 +4075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500641577}
   - component: {fileID: 500641578}
+  - component: {fileID: 500641579}
   m_Layer: 0
   m_Name: tile-empty (89)
   m_TagString: Untagged
@@ -3669,6 +4150,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &500641579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500641576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3763,6 +4259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 522830064}
   - component: {fileID: 522830065}
+  - component: {fileID: 522830066}
   m_Layer: 0
   m_Name: tile-empty (31)
   m_TagString: Untagged
@@ -3837,6 +4334,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &522830066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522830063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &544120443
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,6 +4438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549787011}
   - component: {fileID: 549787012}
+  - component: {fileID: 549787013}
   m_Layer: 0
   m_Name: tile-empty (20)
   m_TagString: Untagged
@@ -4000,6 +4513,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &549787013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549787010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &556067973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4167,6 +4695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563255403}
   - component: {fileID: 563255404}
+  - component: {fileID: 563255405}
   m_Layer: 0
   m_Name: tile-empty (84)
   m_TagString: Untagged
@@ -4241,6 +4770,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &563255405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563255402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &576388979
 GameObject:
   m_ObjectHideFlags: 0
@@ -4251,6 +4795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576388980}
   - component: {fileID: 576388981}
+  - component: {fileID: 576388982}
   m_Layer: 0
   m_Name: tile-empty (2)
   m_TagString: Untagged
@@ -4325,6 +4870,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &576388982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576388979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &588216195
 GameObject:
   m_ObjectHideFlags: 0
@@ -4335,6 +4895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 588216196}
   - component: {fileID: 588216197}
+  - component: {fileID: 588216198}
   m_Layer: 0
   m_Name: tile-empty (69)
   m_TagString: Untagged
@@ -4409,6 +4970,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &588216198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588216195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &590591902
 GameObject:
   m_ObjectHideFlags: 0
@@ -4419,6 +4995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590591903}
   - component: {fileID: 590591904}
+  - component: {fileID: 590591905}
   m_Layer: 0
   m_Name: tile-empty (70)
   m_TagString: Untagged
@@ -4493,6 +5070,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &590591905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590591902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &590782345
 GameObject:
   m_ObjectHideFlags: 0
@@ -4503,6 +5095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590782346}
   - component: {fileID: 590782347}
+  - component: {fileID: 590782348}
   m_Layer: 0
   m_Name: tile-empty (67)
   m_TagString: Untagged
@@ -4577,6 +5170,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &590782348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590782345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &593215479
 GameObject:
   m_ObjectHideFlags: 0
@@ -4587,6 +5195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 593215480}
   - component: {fileID: 593215481}
+  - component: {fileID: 593215482}
   m_Layer: 0
   m_Name: tile-empty (53)
   m_TagString: Untagged
@@ -4661,6 +5270,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &593215482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593215479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &615695031
 GameObject:
   m_ObjectHideFlags: 0
@@ -4671,6 +5295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 615695032}
   - component: {fileID: 615695033}
+  - component: {fileID: 615695034}
   m_Layer: 0
   m_Name: tile-empty (76)
   m_TagString: Untagged
@@ -4745,6 +5370,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &615695034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615695031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &634051051
 GameObject:
   m_ObjectHideFlags: 0
@@ -4755,6 +5395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 634051052}
   - component: {fileID: 634051053}
+  - component: {fileID: 634051054}
   m_Layer: 0
   m_Name: tile-empty (48)
   m_TagString: Untagged
@@ -4829,6 +5470,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &634051054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634051051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &656014330
 GameObject:
   m_ObjectHideFlags: 0
@@ -5156,6 +5812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751176551}
   - component: {fileID: 751176552}
+  - component: {fileID: 751176553}
   m_Layer: 0
   m_Name: tile-empty (71)
   m_TagString: Untagged
@@ -5230,6 +5887,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &751176553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751176550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &754854739
 GameObject:
   m_ObjectHideFlags: 0
@@ -5280,6 +5952,107 @@ MonoBehaviour:
   gemText: {fileID: 1411499463}
   grid: {fileID: 1182928468}
   customCursor: {fileID: 1788596577}
+  tiles:
+  - {fileID: 69312532}
+  - {fileID: 1400833684}
+  - {fileID: 576388982}
+  - {fileID: 1116821423}
+  - {fileID: 1277388125}
+  - {fileID: 278673683}
+  - {fileID: 2113125129}
+  - {fileID: 398667768}
+  - {fileID: 403213687}
+  - {fileID: 339687338}
+  - {fileID: 234681546}
+  - {fileID: 1974427000}
+  - {fileID: 23182170}
+  - {fileID: 1490563162}
+  - {fileID: 34555038}
+  - {fileID: 911760453}
+  - {fileID: 1621571838}
+  - {fileID: 1749440887}
+  - {fileID: 1414272514}
+  - {fileID: 1193423231}
+  - {fileID: 549787013}
+  - {fileID: 858910949}
+  - {fileID: 284189113}
+  - {fileID: 1392935129}
+  - {fileID: 264475781}
+  - {fileID: 2125179198}
+  - {fileID: 1589886673}
+  - {fileID: 477633587}
+  - {fileID: 1292342218}
+  - {fileID: 1555008748}
+  - {fileID: 116949052}
+  - {fileID: 522830066}
+  - {fileID: 500272393}
+  - {fileID: 1963319585}
+  - {fileID: 387042107}
+  - {fileID: 1318689914}
+  - {fileID: 860581609}
+  - {fileID: 1979879069}
+  - {fileID: 292099862}
+  - {fileID: 1337348918}
+  - {fileID: 286954209}
+  - {fileID: 1333071670}
+  - {fileID: 1449204765}
+  - {fileID: 817744386}
+  - {fileID: 446203193}
+  - {fileID: 1768823924}
+  - {fileID: 1932697870}
+  - {fileID: 1108152413}
+  - {fileID: 634051054}
+  - {fileID: 1932344684}
+  - {fileID: 225943354}
+  - {fileID: 957076856}
+  - {fileID: 938224559}
+  - {fileID: 593215482}
+  - {fileID: 769865065}
+  - {fileID: 186693944}
+  - {fileID: 1308306182}
+  - {fileID: 2055117079}
+  - {fileID: 442994786}
+  - {fileID: 762146338}
+  - {fileID: 1988634442}
+  - {fileID: 1382437879}
+  - {fileID: 1942523582}
+  - {fileID: 1425144307}
+  - {fileID: 1135410398}
+  - {fileID: 1164745853}
+  - {fileID: 487019321}
+  - {fileID: 590782348}
+  - {fileID: 1068973605}
+  - {fileID: 588216198}
+  - {fileID: 590591905}
+  - {fileID: 751176553}
+  - {fileID: 1370075580}
+  - {fileID: 1673289734}
+  - {fileID: 354638630}
+  - {fileID: 1510273755}
+  - {fileID: 615695034}
+  - {fileID: 762015831}
+  - {fileID: 897536740}
+  - {fileID: 485250184}
+  - {fileID: 1084829484}
+  - {fileID: 1976416309}
+  - {fileID: 230989785}
+  - {fileID: 118190678}
+  - {fileID: 563255405}
+  - {fileID: 269295518}
+  - {fileID: 872929375}
+  - {fileID: 238358861}
+  - {fileID: 850420686}
+  - {fileID: 500641579}
+  - {fileID: 1477202051}
+  - {fileID: 819039501}
+  - {fileID: 477525985}
+  - {fileID: 34136790}
+  - {fileID: 2025983729}
+  - {fileID: 1503572651}
+  - {fileID: 1468607788}
+  - {fileID: 19883001}
+  - {fileID: 1625830082}
+  - {fileID: 1568308335}
 --- !u!1 &762015828
 GameObject:
   m_ObjectHideFlags: 0
@@ -5290,6 +6063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762015829}
   - component: {fileID: 762015830}
+  - component: {fileID: 762015831}
   m_Layer: 0
   m_Name: tile-empty (77)
   m_TagString: Untagged
@@ -5364,6 +6138,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &762015831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762015828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &762146335
 GameObject:
   m_ObjectHideFlags: 0
@@ -5374,6 +6163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762146336}
   - component: {fileID: 762146337}
+  - component: {fileID: 762146338}
   m_Layer: 0
   m_Name: tile-empty (59)
   m_TagString: Untagged
@@ -5448,6 +6238,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &762146338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762146335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &769865062
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,6 +6263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 769865063}
   - component: {fileID: 769865064}
+  - component: {fileID: 769865065}
   m_Layer: 0
   m_Name: tile-empty (54)
   m_TagString: Untagged
@@ -5532,6 +6338,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &769865065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769865062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &817744383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5542,6 +6363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 817744384}
   - component: {fileID: 817744385}
+  - component: {fileID: 817744386}
   m_Layer: 0
   m_Name: tile-empty (43)
   m_TagString: Untagged
@@ -5616,6 +6438,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &817744386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817744383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &819039498
 GameObject:
   m_ObjectHideFlags: 0
@@ -5626,6 +6463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819039499}
   - component: {fileID: 819039500}
+  - component: {fileID: 819039501}
   m_Layer: 0
   m_Name: tile-empty (91)
   m_TagString: Untagged
@@ -5700,6 +6538,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &819039501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819039498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &845125161
 GameObject:
   m_ObjectHideFlags: 0
@@ -5862,6 +6715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 850420684}
   - component: {fileID: 850420685}
+  - component: {fileID: 850420686}
   m_Layer: 0
   m_Name: tile-empty (88)
   m_TagString: Untagged
@@ -5936,6 +6790,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &850420686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850420683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &858910946
 GameObject:
   m_ObjectHideFlags: 0
@@ -5946,6 +6815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 858910947}
   - component: {fileID: 858910948}
+  - component: {fileID: 858910949}
   m_Layer: 0
   m_Name: tile-empty (21)
   m_TagString: Untagged
@@ -6020,6 +6890,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &858910949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858910946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &860581606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6030,6 +6915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 860581607}
   - component: {fileID: 860581608}
+  - component: {fileID: 860581609}
   m_Layer: 0
   m_Name: tile-empty (36)
   m_TagString: Untagged
@@ -6104,6 +6990,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &860581609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860581606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &864768724
 GameObject:
   m_ObjectHideFlags: 0
@@ -6193,6 +7094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872929373}
   - component: {fileID: 872929374}
+  - component: {fileID: 872929375}
   m_Layer: 0
   m_Name: tile-empty (86)
   m_TagString: Untagged
@@ -6267,6 +7169,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &872929375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872929372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &896270251
 GameObject:
   m_ObjectHideFlags: 0
@@ -6354,6 +7271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897536738}
   - component: {fileID: 897536739}
+  - component: {fileID: 897536740}
   m_Layer: 0
   m_Name: tile-empty (78)
   m_TagString: Untagged
@@ -6428,6 +7346,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &897536740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897536737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &911760450
 GameObject:
   m_ObjectHideFlags: 0
@@ -6438,6 +7371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 911760451}
   - component: {fileID: 911760452}
+  - component: {fileID: 911760453}
   m_Layer: 0
   m_Name: tile-empty (15)
   m_TagString: Untagged
@@ -6512,6 +7446,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &911760453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911760450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &938224556
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,6 +7471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 938224557}
   - component: {fileID: 938224558}
+  - component: {fileID: 938224559}
   m_Layer: 0
   m_Name: tile-empty (52)
   m_TagString: Untagged
@@ -6596,6 +7546,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &938224559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938224556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &957076853
 GameObject:
   m_ObjectHideFlags: 0
@@ -6606,6 +7571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 957076854}
   - component: {fileID: 957076855}
+  - component: {fileID: 957076856}
   m_Layer: 0
   m_Name: tile-empty (51)
   m_TagString: Untagged
@@ -6680,6 +7646,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &957076856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957076853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1035465623
 GameObject:
   m_ObjectHideFlags: 0
@@ -6812,6 +7793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1068973603}
   - component: {fileID: 1068973604}
+  - component: {fileID: 1068973605}
   m_Layer: 0
   m_Name: tile-empty (68)
   m_TagString: Untagged
@@ -6886,6 +7868,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1068973605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068973602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1071681427
 GameObject:
   m_ObjectHideFlags: 0
@@ -7041,6 +8038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084829482}
   - component: {fileID: 1084829483}
+  - component: {fileID: 1084829484}
   m_Layer: 0
   m_Name: tile-empty (80)
   m_TagString: Untagged
@@ -7115,6 +8113,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1084829484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084829481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1108152410
 GameObject:
   m_ObjectHideFlags: 0
@@ -7125,6 +8138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1108152411}
   - component: {fileID: 1108152412}
+  - component: {fileID: 1108152413}
   m_Layer: 0
   m_Name: tile-empty (47)
   m_TagString: Untagged
@@ -7199,6 +8213,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1108152413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108152410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1116821420
 GameObject:
   m_ObjectHideFlags: 0
@@ -7209,6 +8238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1116821421}
   - component: {fileID: 1116821422}
+  - component: {fileID: 1116821423}
   m_Layer: 0
   m_Name: tile-empty (3)
   m_TagString: Untagged
@@ -7283,6 +8313,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1116821423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116821420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1135410395
 GameObject:
   m_ObjectHideFlags: 0
@@ -7293,6 +8338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135410396}
   - component: {fileID: 1135410397}
+  - component: {fileID: 1135410398}
   m_Layer: 0
   m_Name: tile-empty (64)
   m_TagString: Untagged
@@ -7367,6 +8413,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1135410398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135410395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1152660533
 GameObject:
   m_ObjectHideFlags: 0
@@ -7454,6 +8515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1164745851}
   - component: {fileID: 1164745852}
+  - component: {fileID: 1164745853}
   m_Layer: 0
   m_Name: tile-empty (65)
   m_TagString: Untagged
@@ -7528,6 +8590,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1164745853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164745850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1182928468
 GameObject:
   m_ObjectHideFlags: 0
@@ -7669,6 +8746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1193423229}
   - component: {fileID: 1193423230}
+  - component: {fileID: 1193423231}
   m_Layer: 0
   m_Name: tile-empty (19)
   m_TagString: Untagged
@@ -7743,6 +8821,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1193423231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193423228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1205701627
 GameObject:
   m_ObjectHideFlags: 0
@@ -8066,6 +9159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277388123}
   - component: {fileID: 1277388124}
+  - component: {fileID: 1277388125}
   m_Layer: 0
   m_Name: tile-empty (4)
   m_TagString: Untagged
@@ -8140,6 +9234,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1277388125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277388122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1292342215
 GameObject:
   m_ObjectHideFlags: 0
@@ -8150,6 +9259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1292342216}
   - component: {fileID: 1292342217}
+  - component: {fileID: 1292342218}
   m_Layer: 0
   m_Name: tile-empty (28)
   m_TagString: Untagged
@@ -8224,6 +9334,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1292342218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292342215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1308306179
 GameObject:
   m_ObjectHideFlags: 0
@@ -8234,6 +9359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308306180}
   - component: {fileID: 1308306181}
+  - component: {fileID: 1308306182}
   m_Layer: 0
   m_Name: tile-empty (56)
   m_TagString: Untagged
@@ -8308,6 +9434,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1308306182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308306179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1311161196
 GameObject:
   m_ObjectHideFlags: 0
@@ -8394,6 +9535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1318689912}
   - component: {fileID: 1318689913}
+  - component: {fileID: 1318689914}
   m_Layer: 0
   m_Name: tile-empty (35)
   m_TagString: Untagged
@@ -8468,6 +9610,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1318689914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318689911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1333071667
 GameObject:
   m_ObjectHideFlags: 0
@@ -8478,6 +9635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1333071668}
   - component: {fileID: 1333071669}
+  - component: {fileID: 1333071670}
   m_Layer: 0
   m_Name: tile-empty (41)
   m_TagString: Untagged
@@ -8552,6 +9710,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1333071670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333071667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1337348915
 GameObject:
   m_ObjectHideFlags: 0
@@ -8562,6 +9735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1337348916}
   - component: {fileID: 1337348917}
+  - component: {fileID: 1337348918}
   m_Layer: 0
   m_Name: tile-empty (39)
   m_TagString: Untagged
@@ -8636,6 +9810,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1337348918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337348915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1370075577
 GameObject:
   m_ObjectHideFlags: 0
@@ -8646,6 +9835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1370075578}
   - component: {fileID: 1370075579}
+  - component: {fileID: 1370075580}
   m_Layer: 0
   m_Name: tile-empty (72)
   m_TagString: Untagged
@@ -8720,6 +9910,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1370075580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370075577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1382437876
 GameObject:
   m_ObjectHideFlags: 0
@@ -8730,6 +9935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382437877}
   - component: {fileID: 1382437878}
+  - component: {fileID: 1382437879}
   m_Layer: 0
   m_Name: tile-empty (61)
   m_TagString: Untagged
@@ -8804,6 +10010,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1382437879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382437876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1392935126
 GameObject:
   m_ObjectHideFlags: 0
@@ -8814,6 +10035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1392935127}
   - component: {fileID: 1392935128}
+  - component: {fileID: 1392935129}
   m_Layer: 0
   m_Name: tile-empty (23)
   m_TagString: Untagged
@@ -8888,6 +10110,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1392935129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392935126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1400833681
 GameObject:
   m_ObjectHideFlags: 0
@@ -8898,6 +10135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1400833682}
   - component: {fileID: 1400833683}
+  - component: {fileID: 1400833684}
   m_Layer: 0
   m_Name: tile-empty (1)
   m_TagString: Untagged
@@ -8972,6 +10210,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1400833684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400833681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1411499461
 GameObject:
   m_ObjectHideFlags: 0
@@ -9062,6 +10315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414272512}
   - component: {fileID: 1414272513}
+  - component: {fileID: 1414272514}
   m_Layer: 0
   m_Name: tile-empty (18)
   m_TagString: Untagged
@@ -9136,6 +10390,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1414272514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414272511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1425144304
 GameObject:
   m_ObjectHideFlags: 0
@@ -9146,6 +10415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425144305}
   - component: {fileID: 1425144306}
+  - component: {fileID: 1425144307}
   m_Layer: 0
   m_Name: tile-empty (63)
   m_TagString: Untagged
@@ -9220,6 +10490,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1425144307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425144304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1449204762
 GameObject:
   m_ObjectHideFlags: 0
@@ -9230,6 +10515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449204763}
   - component: {fileID: 1449204764}
+  - component: {fileID: 1449204765}
   m_Layer: 0
   m_Name: tile-empty (42)
   m_TagString: Untagged
@@ -9304,6 +10590,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1449204765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449204762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1459339682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9390,6 +10691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1468607786}
   - component: {fileID: 1468607787}
+  - component: {fileID: 1468607788}
   m_Layer: 0
   m_Name: tile-empty (96)
   m_TagString: Untagged
@@ -9464,6 +10766,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1468607788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468607785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1475660955
 GameObject:
   m_ObjectHideFlags: 0
@@ -9550,6 +10867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1477202049}
   - component: {fileID: 1477202050}
+  - component: {fileID: 1477202051}
   m_Layer: 0
   m_Name: tile-empty (90)
   m_TagString: Untagged
@@ -9624,6 +10942,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1477202051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477202048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1490563159
 GameObject:
   m_ObjectHideFlags: 0
@@ -9634,6 +10967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1490563160}
   - component: {fileID: 1490563161}
+  - component: {fileID: 1490563162}
   m_Layer: 0
   m_Name: tile-empty (13)
   m_TagString: Untagged
@@ -9708,6 +11042,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1490563162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490563159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1503572648
 GameObject:
   m_ObjectHideFlags: 0
@@ -9718,6 +11067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503572649}
   - component: {fileID: 1503572650}
+  - component: {fileID: 1503572651}
   m_Layer: 0
   m_Name: tile-empty (95)
   m_TagString: Untagged
@@ -9792,6 +11142,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1503572651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503572648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1510273752
 GameObject:
   m_ObjectHideFlags: 0
@@ -9802,6 +11167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1510273753}
   - component: {fileID: 1510273754}
+  - component: {fileID: 1510273755}
   m_Layer: 0
   m_Name: tile-empty (75)
   m_TagString: Untagged
@@ -9876,6 +11242,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1510273755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510273752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1555008745
 GameObject:
   m_ObjectHideFlags: 0
@@ -9886,6 +11267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1555008746}
   - component: {fileID: 1555008747}
+  - component: {fileID: 1555008748}
   m_Layer: 0
   m_Name: tile-empty (29)
   m_TagString: Untagged
@@ -9960,6 +11342,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1555008748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555008745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1568308332
 GameObject:
   m_ObjectHideFlags: 0
@@ -9970,6 +11367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1568308333}
   - component: {fileID: 1568308334}
+  - component: {fileID: 1568308335}
   m_Layer: 0
   m_Name: tile-empty (99)
   m_TagString: Untagged
@@ -10044,6 +11442,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1568308335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568308332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1584570650
 GameObject:
   m_ObjectHideFlags: 0
@@ -10131,6 +11544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1589886671}
   - component: {fileID: 1589886672}
+  - component: {fileID: 1589886673}
   m_Layer: 0
   m_Name: tile-empty (26)
   m_TagString: Untagged
@@ -10205,6 +11619,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1589886673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589886670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1611313470
 GameObject:
   m_ObjectHideFlags: 0
@@ -10292,6 +11721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621571836}
   - component: {fileID: 1621571837}
+  - component: {fileID: 1621571838}
   m_Layer: 0
   m_Name: tile-empty (16)
   m_TagString: Untagged
@@ -10366,6 +11796,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1621571838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621571835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1625830079
 GameObject:
   m_ObjectHideFlags: 0
@@ -10376,6 +11821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1625830080}
   - component: {fileID: 1625830081}
+  - component: {fileID: 1625830082}
   m_Layer: 0
   m_Name: tile-empty (98)
   m_TagString: Untagged
@@ -10450,6 +11896,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1625830082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625830079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1673289731
 GameObject:
   m_ObjectHideFlags: 0
@@ -10460,6 +11921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1673289732}
   - component: {fileID: 1673289733}
+  - component: {fileID: 1673289734}
   m_Layer: 0
   m_Name: tile-empty (73)
   m_TagString: Untagged
@@ -10534,6 +11996,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1673289734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673289731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1749440884
 GameObject:
   m_ObjectHideFlags: 0
@@ -10544,6 +12021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1749440885}
   - component: {fileID: 1749440886}
+  - component: {fileID: 1749440887}
   m_Layer: 0
   m_Name: tile-empty (17)
   m_TagString: Untagged
@@ -10618,6 +12096,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1749440887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749440884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1768823921
 GameObject:
   m_ObjectHideFlags: 0
@@ -10628,6 +12121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768823922}
   - component: {fileID: 1768823923}
+  - component: {fileID: 1768823924}
   m_Layer: 0
   m_Name: tile-empty (45)
   m_TagString: Untagged
@@ -10702,6 +12196,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1768823924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768823921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1788596575
 GameObject:
   m_ObjectHideFlags: 0
@@ -11068,6 +12577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1932344682}
   - component: {fileID: 1932344683}
+  - component: {fileID: 1932344684}
   m_Layer: 0
   m_Name: tile-empty (49)
   m_TagString: Untagged
@@ -11142,6 +12652,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1932344684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932344681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1932697867
 GameObject:
   m_ObjectHideFlags: 0
@@ -11152,6 +12677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1932697868}
   - component: {fileID: 1932697869}
+  - component: {fileID: 1932697870}
   m_Layer: 0
   m_Name: tile-empty (46)
   m_TagString: Untagged
@@ -11226,6 +12752,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1932697870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932697867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1942523579
 GameObject:
   m_ObjectHideFlags: 0
@@ -11236,6 +12777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942523580}
   - component: {fileID: 1942523581}
+  - component: {fileID: 1942523582}
   m_Layer: 0
   m_Name: tile-empty (62)
   m_TagString: Untagged
@@ -11310,6 +12852,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1942523582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942523579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1963319582
 GameObject:
   m_ObjectHideFlags: 0
@@ -11320,6 +12877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963319583}
   - component: {fileID: 1963319584}
+  - component: {fileID: 1963319585}
   m_Layer: 0
   m_Name: tile-empty (33)
   m_TagString: Untagged
@@ -11394,6 +12952,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1963319585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963319582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1974426997
 GameObject:
   m_ObjectHideFlags: 0
@@ -11404,6 +12977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974426998}
   - component: {fileID: 1974426999}
+  - component: {fileID: 1974427000}
   m_Layer: 0
   m_Name: tile-empty (11)
   m_TagString: Untagged
@@ -11478,6 +13052,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1974427000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974426997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1976416306
 GameObject:
   m_ObjectHideFlags: 0
@@ -11488,6 +13077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976416307}
   - component: {fileID: 1976416308}
+  - component: {fileID: 1976416309}
   m_Layer: 0
   m_Name: tile-empty (81)
   m_TagString: Untagged
@@ -11562,6 +13152,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1976416309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976416306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1979879066
 GameObject:
   m_ObjectHideFlags: 0
@@ -11572,6 +13177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979879067}
   - component: {fileID: 1979879068}
+  - component: {fileID: 1979879069}
   m_Layer: 0
   m_Name: tile-empty (37)
   m_TagString: Untagged
@@ -11646,6 +13252,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1979879069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979879066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1988634439
 GameObject:
   m_ObjectHideFlags: 0
@@ -11656,6 +13277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1988634440}
   - component: {fileID: 1988634441}
+  - component: {fileID: 1988634442}
   m_Layer: 0
   m_Name: tile-empty (60)
   m_TagString: Untagged
@@ -11730,6 +13352,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1988634442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988634439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2019321012
 GameObject:
   m_ObjectHideFlags: 0
@@ -11900,6 +13537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2025983727}
   - component: {fileID: 2025983728}
+  - component: {fileID: 2025983729}
   m_Layer: 0
   m_Name: tile-empty (94)
   m_TagString: Untagged
@@ -11974,6 +13612,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2025983729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025983726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2055117076
 GameObject:
   m_ObjectHideFlags: 0
@@ -11984,6 +13637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2055117077}
   - component: {fileID: 2055117078}
+  - component: {fileID: 2055117079}
   m_Layer: 0
   m_Name: tile-empty (57)
   m_TagString: Untagged
@@ -12058,6 +13712,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2055117079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055117076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2073063639
 GameObject:
   m_ObjectHideFlags: 0
@@ -12147,6 +13816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2113125127}
   - component: {fileID: 2113125128}
+  - component: {fileID: 2113125129}
   m_Layer: 0
   m_Name: tile-empty (6)
   m_TagString: Untagged
@@ -12221,6 +13891,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2113125129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113125126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2125179195
 GameObject:
   m_ObjectHideFlags: 0
@@ -12231,6 +13916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2125179196}
   - component: {fileID: 2125179197}
+  - component: {fileID: 2125179198}
   m_Layer: 0
   m_Name: tile-empty (25)
   m_TagString: Untagged
@@ -12305,6 +13991,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2125179198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125179195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3edc501fc4a947a4da947a0b87bfe8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOccupied: 0
+  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
+  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2133959585
 GameObject:
   m_ObjectHideFlags: 0
