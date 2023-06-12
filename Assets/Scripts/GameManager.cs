@@ -12,6 +12,10 @@ public class GameManager : MonoBehaviour
 
     public GameObject grid;
     private Building buildingToPlace;
+    private GameObject buildingPrefab;
+
+
+    public CustomCursor customCursor;
 
     private void Update()
     {
@@ -23,6 +27,12 @@ public class GameManager : MonoBehaviour
     {
         if (gold >= building.goldCost && gem >= building.gemCost) 
         {
+            customCursor.gameObject.SetActive(true);
+            Object.Destroy(customCursor.gameObject.transform.GetChild(0).gameObject);
+            buildingPrefab = Instantiate(building.buildingPrefab);
+            buildingPrefab.transform.parent = customCursor.gameObject.transform;
+            Cursor.visible = false;
+
             gold -= building.goldCost;
             gem -= building.gemCost;
             buildingToPlace = building;
