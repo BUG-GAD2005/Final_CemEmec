@@ -4,8 +4,5 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
-    public int goldCost;
-    public int gemCost;
-
-    public GameObject buildingPrefab;
+    
 }

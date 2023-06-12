@@ -10,9 +10,9 @@ public class GameManager : MonoBehaviour
     public Text goldText;
     public Text gemText;
 
-    public GameObject grid;
-    private Building buildingToPlace;
+    private BuildingCard buildingCard;
     private GameObject buildingPrefab;
+    private Building buildingToPlace;
 
     public CustomCursor customCursor;
 
@@ -29,7 +29,9 @@ public class GameManager : MonoBehaviour
             float nearestDistance = float.MaxValue;
             foreach(Tile tile in tiles) 
             {
-                float distance = Vector2.Distance(tile.transform.position, Camera.main.ScreenToWorldPoint(Input.mousePosition));
+                Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                mousePosition.x -= 0.4f;
+                float distance = Vector2.Distance(tile.transform.position, mousePosition);
                 if (distance < nearestDistance) 
                 {
                     nearestDistance = distance;
@@ -47,22 +49,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void BuyBuilding(Building building) 
+    public void BuyBuilding(BuildingCard buildingCard) 
     {
-        if (gold >= building.goldCost && gem >= building.gemCost) 
+        if (gold >= buildingCard.goldCost && gem >= buildingCard.gemCost) 
         {
             customCursor.gameObject.SetActive(true);
             if (customCursor.transform.childCount > 0) 
             {
                 Object.Destroy(customCursor.gameObject.transform.GetChild(0).gameObject);
             }
-            buildingPrefab = Instantiate(building.buildingPrefab);
+            buildingPrefab = Instantiate(buildingCard.buildingPrefab);
             buildingPrefab.transform.parent = customCursor.gameObject.transform;
-            Cursor.visible = false;
+            //Cursor.visible = false;
             
-            gold -= building.goldCost;
-            gem -= building.gemCost;
-            buildingToPlace = building;
+            gold -= buildingCard.goldCost;
+            gem -= buildingCard.gemCost;
+            buildingToPlace = buildingCard.building;
         }
     }
 }
