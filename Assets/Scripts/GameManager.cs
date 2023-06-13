@@ -17,7 +17,8 @@ public class GameManager : MonoBehaviour
 
     public CustomCursor customCursor;
 
-    public Tile[] tiles;    
+    public Tile[] tiles;
+    public BuildingCard[] buildingCards;
 
     private void Update()
     {
@@ -35,16 +36,17 @@ public class GameManager : MonoBehaviour
 
     public void BuyBuilding(BuildingCard buildingCard) 
     {
-        if (gold >= buildingCard.goldCost && gem >= buildingCard.gemCost) 
+        buildingPrefab = Instantiate(buildingCard.buildingPrefab, customCursor.transform.position, Quaternion.identity);
+        buildingPrefab.transform.parent = customCursor.gameObject.transform;
+
+        gold -= buildingCard.goldCost;
+        gem -= buildingCard.gemCost;
+        foreach(BuildingCard thisBuildingCard in buildingCards) 
         {
-
-            buildingPrefab = Instantiate(buildingCard.buildingPrefab, customCursor.transform.position, Quaternion.identity);
-            buildingPrefab.transform.parent = customCursor.gameObject.transform;
-
-            gold -= buildingCard.goldCost;
-            gem -= buildingCard.gemCost;
-            buildingToPlace = buildingCard.building;
-            buildingIndex = buildingCard.buildingIndex;
+            thisBuildingCard.SetButtonInteractability();
         }
+
+        buildingToPlace = buildingCard.building;
+        buildingIndex = buildingCard.buildingIndex;
     }
 }
