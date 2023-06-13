@@ -17,5 +17,7 @@ public class BuildingCard : MonoBehaviour
     private void Start()
     {
         building = buildingPrefab.GetComponent<Building>();
+        goldCostText.text = goldCost.ToString();
+        gemCostText.text = gemCost.ToString();
     }
 }

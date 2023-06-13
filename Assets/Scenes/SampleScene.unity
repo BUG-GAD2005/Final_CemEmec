@@ -6706,8 +6706,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldCost: 1
   gemCost: 0
-  goldCostText: {fileID: 0}
-  gemCostText: {fileID: 0}
+  goldCostText: {fileID: 1802741080}
+  gemCostText: {fileID: 2019321014}
   buildingIndex: 0
   buildingPrefab: {fileID: 6436151598070868463, guid: ac84e417cbace384fa7578c3d454bb59, type: 3}
   building: {fileID: 0}
@@ -14105,7 +14105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 180}
