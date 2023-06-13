@@ -5997,6 +5997,8 @@ MonoBehaviour:
   gem: 10
   goldText: {fileID: 498248411}
   gemText: {fileID: 1411499463}
+  goldCost: 0
+  gemCost: 0
   buildingToPlace: {fileID: 0}
   buildingToPlaceScript: {fileID: 0}
   buildingSchemes: {fileID: 1880158520}
@@ -12663,6 +12665,10 @@ MonoBehaviour:
   vacantColor: {r: 0.69411767, g: 0.9921569, b: 0.34901962, a: 0.7490196}
   occupiedColor: {r: 0.9921569, g: 0.427451, b: 0.2509804, a: 0.7490196}
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  canvas: {fileID: 2133959585}
+  goldTransform: {fileID: 1239694122}
+  gemTransform: {fileID: 559018534}
+  textPrefab: {fileID: 1395622607672280603, guid: 8473311899256224f99108510a99425c, type: 3}
 --- !u!1 &1887497643
 GameObject:
   m_ObjectHideFlags: 0
@@ -14234,7 +14240,7 @@ GameObject:
   - component: {fileID: 2133959586}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14298,7 +14304,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &2133959589
 RectTransform:

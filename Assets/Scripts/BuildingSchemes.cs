@@ -9,6 +9,16 @@ public class BuildingSchemes : MonoBehaviour
     public Color vacantColor;
     public Color occupiedColor;
     public Color defaultColor;
+    public GameObject canvas;
+    private GameObject goldFloatingText;
+    private GameObject gemFloatingText;
+    private GameObject buildingGoldFloatingText;
+    private GameObject buildingGemFloatingText;
+
+    public Transform goldTransform;
+    public Transform gemTransform;
+
+    public GameObject textPrefab;
 
     private float nearestDistance;
     private Tile nearestTile;
@@ -86,6 +96,10 @@ public class BuildingSchemes : MonoBehaviour
 
             Vector3 spawnPosition = new Vector3(nearestTile.transform.position.x + ((_2ndTile.transform.position.x - nearestTile.transform.position.x) / 2), nearestTile.transform.position.y, 0);
             Instantiate(gameManager.buildingToPlaceScript, spawnPosition, Quaternion.identity);
+
+            goldFloatingText = Instantiate(textPrefab, goldTransform.position, Quaternion.identity, canvas.transform);
+            gemFloatingText = Instantiate(textPrefab, gemTransform.position, Quaternion.identity, canvas.transform);
+
             gameManager.buildingToPlaceScript = null;
             nearestTile.isOccupied = true;
             _2ndTile.isOccupied = true;
