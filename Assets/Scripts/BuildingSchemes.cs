@@ -9,6 +9,7 @@ public class BuildingSchemes : MonoBehaviour
     public Color vacantColor;
     public Color occupiedColor;
     public Color defaultColor;
+
     public GameObject canvas;
     private GameObject goldFloatingText;
     private GameObject gemFloatingText;
@@ -98,7 +99,13 @@ public class BuildingSchemes : MonoBehaviour
             Instantiate(gameManager.buildingToPlaceScript, spawnPosition, Quaternion.identity);
 
             goldFloatingText = Instantiate(textPrefab, goldTransform.position, Quaternion.identity, canvas.transform);
+            goldFloatingText.GetComponent<FloatingText>().text.text = "-" + gameManager.goldCost;
             gemFloatingText = Instantiate(textPrefab, gemTransform.position, Quaternion.identity, canvas.transform);
+            gemFloatingText.GetComponent<FloatingText>().text.text = "-" + gameManager.gemCost;
+            buildingGoldFloatingText = Instantiate(textPrefab, new Vector3(spawnPosition.x - 0.4f, spawnPosition.y, spawnPosition.z), Quaternion.identity, canvas.transform);
+            buildingGoldFloatingText.GetComponent<FloatingText>().text.text = "-" + gameManager.goldCost;
+            buildingGemFloatingText = Instantiate(textPrefab, new Vector3(spawnPosition.x + 0.4f, spawnPosition.y, spawnPosition.z), Quaternion.identity, canvas.transform);
+            buildingGemFloatingText.GetComponent<FloatingText>().text.text = "-" + gameManager.gemCost;
 
             gameManager.buildingToPlaceScript = null;
             nearestTile.isOccupied = true;
