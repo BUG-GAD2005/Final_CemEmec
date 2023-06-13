@@ -37,15 +37,10 @@ public class GameManager : MonoBehaviour
     {
         if (gold >= buildingCard.goldCost && gem >= buildingCard.gemCost) 
         {
-            customCursor.gameObject.SetActive(true);
-            if (customCursor.transform.childCount > 0) 
-            {
-                Object.Destroy(customCursor.gameObject.transform.GetChild(0).gameObject);
-            }
-            buildingPrefab = Instantiate(buildingCard.buildingPrefab);
+
+            buildingPrefab = Instantiate(buildingCard.buildingPrefab, customCursor.transform.position, Quaternion.identity);
             buildingPrefab.transform.parent = customCursor.gameObject.transform;
-            //Cursor.visible = false;
-            
+
             gold -= buildingCard.goldCost;
             gem -= buildingCard.gemCost;
             buildingToPlace = buildingCard.building;

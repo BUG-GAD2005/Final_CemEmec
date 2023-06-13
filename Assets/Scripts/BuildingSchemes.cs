@@ -48,9 +48,11 @@ public class BuildingSchemes : MonoBehaviour
             gameManager.buildingToPlace = null;
             nearestTile.isOccupied = true;
             _2ndTile.isOccupied = true;
-            gameManager.customCursor.gameObject.SetActive(false);
+            Object.Destroy(gameManager.customCursor.gameObject.transform.GetChild(0).gameObject);
+            //gameManager.customCursor.gameObject.SetActive(false);
             //Cursor.visible = true;
         }
     }
+
 }
 
