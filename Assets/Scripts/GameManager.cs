@@ -10,9 +10,10 @@ public class GameManager : MonoBehaviour
     public Text goldText;
     public Text gemText;
 
-    private BuildingCard buildingCard;
     private GameObject buildingPrefab;
-    private Building buildingToPlace;
+    public Building buildingToPlace;
+    public BuildingSchemes buildingSchemes;
+    private int buildingIndex;
 
     public CustomCursor customCursor;
 
@@ -25,26 +26,9 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && buildingToPlace != null) 
         {
-            Tile nearestTile = null;
-            float nearestDistance = float.MaxValue;
-            foreach(Tile tile in tiles) 
+            if (buildingIndex == 0) 
             {
-                Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                mousePosition.x -= 0.4f;
-                float distance = Vector2.Distance(tile.transform.position, mousePosition);
-                if (distance < nearestDistance) 
-                {
-                    nearestDistance = distance;
-                    nearestTile = tile;
-                }
-            }
-            if (nearestTile.isOccupied == false) 
-            {
-                Instantiate(buildingToPlace, nearestTile.transform.position, Quaternion.identity);
-                buildingToPlace = null;
-                nearestTile.isOccupied = true;
-                customCursor.gameObject.SetActive(false);
-                Cursor.visible = true;
+                buildingSchemes.BuildA();
             }
         }
     }
@@ -65,6 +49,7 @@ public class GameManager : MonoBehaviour
             gold -= buildingCard.goldCost;
             gem -= buildingCard.gemCost;
             buildingToPlace = buildingCard.building;
+            buildingIndex = buildingCard.buildingIndex;
         }
     }
 }
