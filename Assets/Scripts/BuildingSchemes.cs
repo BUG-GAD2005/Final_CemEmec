@@ -45,15 +45,17 @@ public class BuildingSchemes : MonoBehaviour
             }
         }
 
-        if (!nearestTile.isOccupied && !_2ndTile.isOccupied)
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+        if (!nearestTile.isOccupied && !_2ndTile.isOccupied && hit.collider != null && hit.collider.name == "Grid")
         {
-            for (int i = 0; i < gameManager.customCursor.transform.GetChild(0).gameObject.transform.childCount; i++) 
+            for (int i = 0; i < gameManager.customCursor.transform.GetChild(0).gameObject.transform.childCount; i++)
             {
                 SpriteRenderer spriteRenderer = gameManager.customCursor.transform.GetChild(0).gameObject.transform.GetChild(i).GetComponent<SpriteRenderer>();
                 spriteRenderer.color = vacantColor;
             }
         }
-        else 
+        else
         {
             for (int i = 0; i < gameManager.customCursor.transform.GetChild(0).gameObject.transform.childCount; i++)
             {
@@ -65,8 +67,12 @@ public class BuildingSchemes : MonoBehaviour
 
     public void BuildA()
     {
-        if (!nearestTile.isOccupied && !_2ndTile.isOccupied)
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+        if (!nearestTile.isOccupied && !_2ndTile.isOccupied && hit.collider != null && hit.collider.name == "Grid")
         {
+            Debug.Log("Target name: " + hit.collider.name);
+
             for (int i = 0; i < gameManager.buildingToPlace.transform.childCount; i++)
             {
                 SpriteRenderer spriteRenderer = gameManager.buildingToPlace.transform.GetChild(i).gameObject.GetComponent<SpriteRenderer>();
