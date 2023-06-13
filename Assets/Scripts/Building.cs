@@ -6,6 +6,8 @@ public class Building : MonoBehaviour
 {
     private GameManager gameManager;
 
+    public int BuildingIndex;
+
     public int goldIncrease;
     public int gemIncrease;
     public float IncreaseCountdown;

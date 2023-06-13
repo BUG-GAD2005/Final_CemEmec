@@ -6,11 +6,15 @@ public class BuildingSchemes : MonoBehaviour
 {
     public GameManager gameManager;
 
+    public Color vacantColor;
+    public Color occupiedColor;
+    public Color defaultColor;
+
     private float nearestDistance;
     private Tile nearestTile;
     private Tile _2ndTile;
 
-    public void BuildA()
+    public void SetColorA() 
     {
         nearestDistance = float.MaxValue;
         nearestTile = null;
@@ -43,9 +47,35 @@ public class BuildingSchemes : MonoBehaviour
 
         if (!nearestTile.isOccupied && !_2ndTile.isOccupied)
         {
+            for (int i = 0; i < gameManager.customCursor.transform.GetChild(0).gameObject.transform.childCount; i++) 
+            {
+                SpriteRenderer spriteRenderer = gameManager.customCursor.transform.GetChild(0).gameObject.transform.GetChild(i).GetComponent<SpriteRenderer>();
+                spriteRenderer.color = vacantColor;
+            }
+        }
+        else 
+        {
+            for (int i = 0; i < gameManager.customCursor.transform.GetChild(0).gameObject.transform.childCount; i++)
+            {
+                SpriteRenderer spriteRenderer = gameManager.customCursor.transform.GetChild(0).gameObject.transform.GetChild(i).GetComponent<SpriteRenderer>();
+                spriteRenderer.color = occupiedColor;
+            }
+        }
+    }
+
+    public void BuildA()
+    {
+        if (!nearestTile.isOccupied && !_2ndTile.isOccupied)
+        {
+            for (int i = 0; i < gameManager.buildingToPlace.transform.childCount; i++)
+            {
+                SpriteRenderer spriteRenderer = gameManager.buildingToPlace.transform.GetChild(i).gameObject.GetComponent<SpriteRenderer>();
+                spriteRenderer.color = defaultColor;
+            }
+
             Vector3 spawnPosition = new Vector3(nearestTile.transform.position.x + ((_2ndTile.transform.position.x - nearestTile.transform.position.x) / 2), nearestTile.transform.position.y, 0);
-            Instantiate(gameManager.buildingToPlace, spawnPosition, Quaternion.identity);
-            gameManager.buildingToPlace = null;
+            Instantiate(gameManager.buildingToPlaceScript, spawnPosition, Quaternion.identity);
+            gameManager.buildingToPlaceScript = null;
             nearestTile.isOccupied = true;
             _2ndTile.isOccupied = true;
             Object.Destroy(gameManager.customCursor.gameObject.transform.GetChild(0).gameObject);

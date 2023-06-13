@@ -221,8 +221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &23182167
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,8 +319,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &34136787
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,8 +417,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &34555035
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,8 +515,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &37405318
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,8 +770,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &75170727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,8 +1024,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &118190675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,8 +1122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &140410677
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,8 +1297,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &193186041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,8 +1539,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &230989782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,8 +1637,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &234681543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1755,8 +1735,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &238358858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1855,8 +1833,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &264475778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,8 +1931,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &269295515
 GameObject:
   m_ObjectHideFlags: 0
@@ -2055,8 +2029,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &278673680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,8 +2127,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &284189110
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,8 +2225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &286954206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,8 +2323,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &292099859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,8 +2421,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &294266081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2709,8 +2673,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &354638627
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,8 +2771,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &383469872
 GameObject:
   m_ObjectHideFlags: 0
@@ -2986,8 +2946,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &398667765
 GameObject:
   m_ObjectHideFlags: 0
@@ -3086,8 +3044,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &403213684
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,8 +3142,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &404263755
 GameObject:
   m_ObjectHideFlags: 0
@@ -3446,8 +3400,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &446203190
 GameObject:
   m_ObjectHideFlags: 0
@@ -3546,8 +3498,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &477525982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3646,8 +3596,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &477633584
 GameObject:
   m_ObjectHideFlags: 0
@@ -3746,8 +3694,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &485250181
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,8 +3792,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &487019318
 GameObject:
   m_ObjectHideFlags: 0
@@ -3946,8 +3890,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &498248409
 GameObject:
   m_ObjectHideFlags: 0
@@ -4128,8 +4070,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &500641576
 GameObject:
   m_ObjectHideFlags: 0
@@ -4228,8 +4168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4412,8 +4350,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &544120443
 GameObject:
   m_ObjectHideFlags: 0
@@ -4656,8 +4592,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &556067973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4913,8 +4847,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &576388979
 GameObject:
   m_ObjectHideFlags: 0
@@ -5013,8 +4945,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &588216195
 GameObject:
   m_ObjectHideFlags: 0
@@ -5113,8 +5043,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &590591902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5213,8 +5141,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &590782345
 GameObject:
   m_ObjectHideFlags: 0
@@ -5313,8 +5239,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &593215479
 GameObject:
   m_ObjectHideFlags: 0
@@ -5413,8 +5337,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &615695031
 GameObject:
   m_ObjectHideFlags: 0
@@ -5513,8 +5435,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &634051051
 GameObject:
   m_ObjectHideFlags: 0
@@ -5613,8 +5533,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &656014330
 GameObject:
   m_ObjectHideFlags: 0
@@ -6030,8 +5948,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &754854739
 GameObject:
   m_ObjectHideFlags: 0
@@ -6082,6 +5998,7 @@ MonoBehaviour:
   goldText: {fileID: 498248411}
   gemText: {fileID: 1411499463}
   buildingToPlace: {fileID: 0}
+  buildingToPlaceScript: {fileID: 0}
   buildingSchemes: {fileID: 1880158520}
   customCursor: {fileID: 1788596577}
   tiles:
@@ -6290,8 +6207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &762146335
 GameObject:
   m_ObjectHideFlags: 0
@@ -6390,8 +6305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &769865062
 GameObject:
   m_ObjectHideFlags: 0
@@ -6490,8 +6403,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &817744383
 GameObject:
   m_ObjectHideFlags: 0
@@ -6590,8 +6501,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &819039498
 GameObject:
   m_ObjectHideFlags: 0
@@ -6690,8 +6599,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &845125161
 GameObject:
   m_ObjectHideFlags: 0
@@ -6946,8 +6853,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &858910946
 GameObject:
   m_ObjectHideFlags: 0
@@ -7046,8 +6951,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &860581606
 GameObject:
   m_ObjectHideFlags: 0
@@ -7146,8 +7049,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &864768724
 GameObject:
   m_ObjectHideFlags: 0
@@ -7390,8 +7291,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &896270251
 GameObject:
   m_ObjectHideFlags: 0
@@ -7567,8 +7466,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &911760450
 GameObject:
   m_ObjectHideFlags: 0
@@ -7667,8 +7564,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &938224556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7767,8 +7662,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &957076853
 GameObject:
   m_ObjectHideFlags: 0
@@ -7867,8 +7760,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1035465623
 GameObject:
   m_ObjectHideFlags: 0
@@ -8089,8 +7980,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1071681427
 GameObject:
   m_ObjectHideFlags: 0
@@ -8334,8 +8223,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1108152410
 GameObject:
   m_ObjectHideFlags: 0
@@ -8434,8 +8321,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1116821420
 GameObject:
   m_ObjectHideFlags: 0
@@ -8534,8 +8419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1135410395
 GameObject:
   m_ObjectHideFlags: 0
@@ -8634,8 +8517,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1152660533
 GameObject:
   m_ObjectHideFlags: 0
@@ -8811,8 +8692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1182928468
 GameObject:
   m_ObjectHideFlags: 0
@@ -9042,8 +8921,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1205701627
 GameObject:
   m_ObjectHideFlags: 0
@@ -9455,8 +9332,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1292342215
 GameObject:
   m_ObjectHideFlags: 0
@@ -9555,8 +9430,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1308306179
 GameObject:
   m_ObjectHideFlags: 0
@@ -9655,8 +9528,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1311161196
 GameObject:
   m_ObjectHideFlags: 0
@@ -9831,8 +9702,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1333071667
 GameObject:
   m_ObjectHideFlags: 0
@@ -9931,8 +9800,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1337348915
 GameObject:
   m_ObjectHideFlags: 0
@@ -10031,8 +9898,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1370075577
 GameObject:
   m_ObjectHideFlags: 0
@@ -10131,8 +9996,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1382437876
 GameObject:
   m_ObjectHideFlags: 0
@@ -10231,8 +10094,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1392935126
 GameObject:
   m_ObjectHideFlags: 0
@@ -10331,8 +10192,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1400833681
 GameObject:
   m_ObjectHideFlags: 0
@@ -10431,8 +10290,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1411499461
 GameObject:
   m_ObjectHideFlags: 0
@@ -10611,8 +10468,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1425144304
 GameObject:
   m_ObjectHideFlags: 0
@@ -10711,8 +10566,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1449204762
 GameObject:
   m_ObjectHideFlags: 0
@@ -10811,8 +10664,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1459339682
 GameObject:
   m_ObjectHideFlags: 0
@@ -10987,8 +10838,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1475660955
 GameObject:
   m_ObjectHideFlags: 0
@@ -11163,8 +11012,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1490563159
 GameObject:
   m_ObjectHideFlags: 0
@@ -11263,8 +11110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1503572648
 GameObject:
   m_ObjectHideFlags: 0
@@ -11363,8 +11208,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1510273752
 GameObject:
   m_ObjectHideFlags: 0
@@ -11463,8 +11306,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1555008745
 GameObject:
   m_ObjectHideFlags: 0
@@ -11563,8 +11404,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1568308332
 GameObject:
   m_ObjectHideFlags: 0
@@ -11663,8 +11502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1584570650
 GameObject:
   m_ObjectHideFlags: 0
@@ -11840,8 +11677,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1611313470
 GameObject:
   m_ObjectHideFlags: 0
@@ -12017,8 +11852,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1625830079
 GameObject:
   m_ObjectHideFlags: 0
@@ -12117,8 +11950,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1673289731
 GameObject:
   m_ObjectHideFlags: 0
@@ -12217,8 +12048,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1749440884
 GameObject:
   m_ObjectHideFlags: 0
@@ -12317,8 +12146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1768823921
 GameObject:
   m_ObjectHideFlags: 0
@@ -12417,8 +12244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1788596575
 GameObject:
   m_ObjectHideFlags: 0
@@ -12808,6 +12633,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 754854741}
+  vacantColor: {r: 0.69411767, g: 0.9921569, b: 0.34901962, a: 0.7490196}
+  occupiedColor: {r: 0.9921569, g: 0.427451, b: 0.2509804, a: 0.7490196}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1887497643
 GameObject:
   m_ObjectHideFlags: 0
@@ -12983,8 +12811,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1932697867
 GameObject:
   m_ObjectHideFlags: 0
@@ -13083,8 +12909,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1942523579
 GameObject:
   m_ObjectHideFlags: 0
@@ -13183,8 +13007,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1963319582
 GameObject:
   m_ObjectHideFlags: 0
@@ -13283,8 +13105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1974426997
 GameObject:
   m_ObjectHideFlags: 0
@@ -13383,8 +13203,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1976416306
 GameObject:
   m_ObjectHideFlags: 0
@@ -13483,8 +13301,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1979879066
 GameObject:
   m_ObjectHideFlags: 0
@@ -13583,8 +13399,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &1988634439
 GameObject:
   m_ObjectHideFlags: 0
@@ -13683,8 +13497,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2019321012
 GameObject:
   m_ObjectHideFlags: 0
@@ -13943,8 +13755,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2055117076
 GameObject:
   m_ObjectHideFlags: 0
@@ -14043,8 +13853,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2073063639
 GameObject:
   m_ObjectHideFlags: 0
@@ -14287,8 +14095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2125179195
 GameObject:
   m_ObjectHideFlags: 0
@@ -14387,8 +14193,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
-  vacantColor: {r: 0.25, g: 1, b: 0.25, a: 0.32941177}
-  occupiedColor: {r: 1, g: 0.25, b: 0.25, a: 0.32941177}
 --- !u!1 &2133959585
 GameObject:
   m_ObjectHideFlags: 0

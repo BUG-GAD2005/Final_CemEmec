@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a088438ed5c00848ba994c00f4eab83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BuildingIndex: 0
   goldIncrease: 0
   gemIncrease: 0
   IncreaseCountdown: 500

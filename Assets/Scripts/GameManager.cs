@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
     public Text gemText;
 
     private GameObject buildingPrefab;
-    public Building buildingToPlace;
+    public GameObject buildingToPlace;
+    public Building buildingToPlaceScript;
     public BuildingSchemes buildingSchemes;
     private int buildingIndex;
 
@@ -25,11 +26,16 @@ public class GameManager : MonoBehaviour
         goldText.text = gold.ToString();
         gemText.text = gem.ToString();
 
-        if (Input.GetMouseButtonDown(0) && buildingToPlace != null) 
+        if (buildingToPlace != null) 
         {
             if (buildingIndex == 0) 
             {
-                buildingSchemes.BuildA();
+                buildingSchemes.SetColorA();
+
+                if (Input.GetMouseButtonDown(0)) 
+                {
+                    buildingSchemes.BuildA();
+                }
             }
         }
     }
@@ -46,7 +52,8 @@ public class GameManager : MonoBehaviour
             thisBuildingCard.SetButtonInteractability();
         }
 
-        buildingToPlace = buildingCard.building;
+        buildingToPlace = buildingCard.buildingPrefab;
+        buildingToPlaceScript = buildingCard.building;
         buildingIndex = buildingCard.buildingIndex;
     }
 }
