@@ -209,12 +209,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6436151598070868463}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a088438ed5c00848ba994c00f4eab83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textPrefab: {fileID: 1395622607672280603, guid: 8473311899256224f99108510a99425c, type: 3}
+  canvas: {fileID: 0}
+  goldTransform: {fileID: 0}
+  gemTransform: {fileID: 0}
   BuildingIndex: 0
-  goldIncrease: 0
-  gemIncrease: 0
-  IncreaseCountdown: 500
+  goldIncrease: 1
+  gemIncrease: 1
+  IncreaseCountdown: 5

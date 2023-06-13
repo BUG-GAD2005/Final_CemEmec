@@ -5,6 +5,7 @@ using UnityEngine;
 public class BuildingSchemes : MonoBehaviour
 {
     public GameManager gameManager;
+    private GameObject placedBuilding;
 
     public Color vacantColor;
     public Color occupiedColor;
@@ -96,7 +97,8 @@ public class BuildingSchemes : MonoBehaviour
             }
 
             Vector3 spawnPosition = new Vector3(nearestTile.transform.position.x + ((_2ndTile.transform.position.x - nearestTile.transform.position.x) / 2), nearestTile.transform.position.y, 0);
-            Instantiate(gameManager.buildingToPlaceScript, spawnPosition, Quaternion.identity);
+            placedBuilding = Instantiate(gameManager.buildingToPlace, spawnPosition, Quaternion.identity);
+            placedBuilding.GetComponent<Building>().enabled = true;
 
             goldFloatingText = Instantiate(textPrefab, goldTransform.position, Quaternion.identity, canvas.transform);
             goldFloatingText.GetComponent<FloatingText>().text.text = "-" + gameManager.goldCost;
