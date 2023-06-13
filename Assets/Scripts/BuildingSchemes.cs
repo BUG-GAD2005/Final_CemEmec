@@ -47,7 +47,7 @@ public class BuildingSchemes : MonoBehaviour
 
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-        if (!nearestTile.isOccupied && !_2ndTile.isOccupied && hit.collider != null && hit.collider.name == "Grid")
+        if (nearestTile != _2ndTile && !nearestTile.isOccupied && !_2ndTile.isOccupied && hit.collider != null && hit.collider.name == "Grid")
         {
             for (int i = 0; i < gameManager.customCursor.transform.GetChild(0).gameObject.transform.childCount; i++)
             {
@@ -69,14 +69,19 @@ public class BuildingSchemes : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-        if (!nearestTile.isOccupied && !_2ndTile.isOccupied && hit.collider != null && hit.collider.name == "Grid")
+        if (nearestTile != _2ndTile && !nearestTile.isOccupied && !_2ndTile.isOccupied && hit.collider != null && hit.collider.name == "Grid")
         {
-            Debug.Log("Target name: " + hit.collider.name);
-
             for (int i = 0; i < gameManager.buildingToPlace.transform.childCount; i++)
             {
                 SpriteRenderer spriteRenderer = gameManager.buildingToPlace.transform.GetChild(i).gameObject.GetComponent<SpriteRenderer>();
                 spriteRenderer.color = defaultColor;
+            }
+
+            gameManager.gold -= gameManager.goldCost;
+            gameManager.gem -= gameManager.gemCost;
+            foreach (BuildingCard thisBuildingCard in gameManager.buildingCards)
+            {
+                thisBuildingCard.SetButtonInteractability();
             }
 
             Vector3 spawnPosition = new Vector3(nearestTile.transform.position.x + ((_2ndTile.transform.position.x - nearestTile.transform.position.x) / 2), nearestTile.transform.position.y, 0);
@@ -84,6 +89,10 @@ public class BuildingSchemes : MonoBehaviour
             gameManager.buildingToPlaceScript = null;
             nearestTile.isOccupied = true;
             _2ndTile.isOccupied = true;
+            Object.Destroy(gameManager.customCursor.gameObject.transform.GetChild(0).gameObject);
+        }
+        else 
+        {
             Object.Destroy(gameManager.customCursor.gameObject.transform.GetChild(0).gameObject);
         }
     }

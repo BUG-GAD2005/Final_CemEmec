@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public Text goldText;
     public Text gemText;
 
+    public int goldCost;
+    public int gemCost;
+
     private GameObject buildingPrefab;
     public GameObject buildingToPlace;
     public Building buildingToPlaceScript;
@@ -45,12 +48,8 @@ public class GameManager : MonoBehaviour
         buildingPrefab = Instantiate(buildingCard.buildingPrefab, customCursor.transform.position, Quaternion.identity);
         buildingPrefab.transform.parent = customCursor.gameObject.transform;
 
-        gold -= buildingCard.goldCost;
-        gem -= buildingCard.gemCost;
-        foreach(BuildingCard thisBuildingCard in buildingCards) 
-        {
-            thisBuildingCard.SetButtonInteractability();
-        }
+        goldCost = buildingCard.goldCost;
+        gemCost = buildingCard.gemCost;
 
         buildingToPlace = buildingCard.buildingPrefab;
         buildingToPlaceScript = buildingCard.building;
