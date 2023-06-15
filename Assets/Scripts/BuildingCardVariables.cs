@@ -10,4 +10,5 @@ public class BuildingCardVariables : MonoBehaviour
     [SerializeField] public Vector2[] tilePositions;
     [SerializeField] public int goldIncreaseValue;
     [SerializeField] public int gemIncreaseValue;
+    [SerializeField] public int increaseCountdown;
 }

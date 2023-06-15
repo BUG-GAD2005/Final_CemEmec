@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject buildingPrefab;
     [SerializeField] private GameObject floatingText;
     private GameObject activeBuildingPrefab;
-    private BuildingCardVariables activeBuildingCardVariables;
+    [HideInInspector] public BuildingCardVariables activeBuildingCardVariables;
 
     [HideInInspector] public GameObject buildingToPlace;
     [HideInInspector] public BuildingCardVariables buildingCardVariablesToPlace;
@@ -120,7 +120,6 @@ public class GameManager : MonoBehaviour
         pickedTiles = new List<GameObject>();
 
         int blockCount = activeBuildingPrefab.transform.childCount;
-        int tileCount = GameObject.FindGameObjectsWithTag("Tile").Length;
 
         MatchBlocksAndTiles(blockCount);
 
@@ -234,7 +233,7 @@ public class GameManager : MonoBehaviour
                 pickedTiles[0].transform.position.x + distanceBtwMouseAndBlock0.x,
                 pickedTiles[0].transform.position.y + distanceBtwMouseAndBlock0.y);
 
-            Instantiate(buildingToPlace, spawnPoint, Quaternion.identity);
+            GameObject activeBuildingToPlace = Instantiate(buildingToPlace, spawnPoint, Quaternion.identity);
 
             SpawnResourceFloatingTexts();
             SpawnBuildingFloatingTexts(spawnPoint);
@@ -242,6 +241,8 @@ public class GameManager : MonoBehaviour
             SetBuildingCardButtonsInteractibility();
 
             resourceView.SetGoldAndGemView(gold, gem);
+
+            activeBuildingToPlace.GetComponent<Building>().enabled = true;
 
             Destroy(activeBuildingPrefab);
         }
@@ -273,6 +274,30 @@ public class GameManager : MonoBehaviour
 
         goldFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(activeBuildingCardVariables.goldCost, "-");
         gemFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(activeBuildingCardVariables.gemCost, "-");
+    }
+
+    public void SpawnGeneratedResourceFloatingTexts(GameObject building) 
+    {
+        Vector2 goldSpawnPoint = resourceView.goldValueText.gameObject.transform.parent.transform.position;
+        Vector2 gemSpawnPoint = resourceView.gemValueText.gameObject.transform.parent.transform.position;
+
+        GameObject goldFloatingText = Instantiate(floatingText, goldSpawnPoint, Quaternion.identity, canvas.transform);
+        GameObject gemFloatingText = Instantiate(floatingText, gemSpawnPoint, Quaternion.identity, canvas.transform);
+
+        goldFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(building.GetComponent<Building>().goldIncrease, "+");
+        gemFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(building.GetComponent<Building>().gemIncrease, "+");
+    }
+
+    public void SpawnBuildingGeneratedFloatingTexts(GameObject building) 
+    {
+        Vector2 goldSpawnPoint = new Vector2(building.transform.position.x - 0.4f, building.transform.position.y);
+        Vector2 gemSpawnPoint = new Vector2(building.transform.position.x + 0.4f, building.transform.position.y);
+
+        GameObject goldFloatingText = Instantiate(floatingText, goldSpawnPoint, Quaternion.identity, canvas.transform);
+        GameObject gemFloatingText = Instantiate(floatingText, gemSpawnPoint, Quaternion.identity, canvas.transform);
+
+        goldFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(building.GetComponent<Building>().goldIncrease, "+");
+        gemFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(building.GetComponent<Building>().gemIncrease, "+");
     }
 }
 

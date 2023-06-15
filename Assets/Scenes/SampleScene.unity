@@ -1457,8 +1457,9 @@ MonoBehaviour:
   - {x: 0.8, y: 0.4}
   - {x: 0, y: -0.4}
   - {x: 0.8, y: -0.4}
-  goldIncreaseValue: 0
-  gemIncreaseValue: 0
+  goldIncreaseValue: 3
+  gemIncreaseValue: 1
+  increaseCountdown: 10
 --- !u!114 &193186048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4621,8 +4622,9 @@ MonoBehaviour:
   - {x: 0.4, y: 0.4}
   - {x: -0.4, y: -0.4}
   - {x: 0.4, y: -0.4}
-  goldIncreaseValue: 0
+  goldIncreaseValue: 2
   gemIncreaseValue: 0
+  increaseCountdown: 5
 --- !u!114 &544120450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6143,6 +6145,7 @@ MonoBehaviour:
   tiles: []
   buildingPrefab: {fileID: 3353606006593919141, guid: 1f58b3e4da9cf47408fbaad4a12049f8, type: 3}
   floatingText: {fileID: 1395622607672280603, guid: 8473311899256224f99108510a99425c, type: 3}
+  activeBuildingCardVariables: {fileID: 0}
   buildingToPlace: {fileID: 0}
   buildingCardVariablesToPlace: {fileID: 0}
   vacantColor: {r: 0.039849162, g: 1, b: 0, a: 0.5019608}
@@ -6823,8 +6826,9 @@ MonoBehaviour:
   tilePositions:
   - {x: -0.4, y: 0}
   - {x: 0.4, y: 0}
-  goldIncreaseValue: 0
+  goldIncreaseValue: 1
   gemIncreaseValue: 0
+  increaseCountdown: 5
 --- !u!114 &845125170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7293,8 +7297,9 @@ MonoBehaviour:
   - {x: 0.4, y: 0.4}
   - {x: -0.4, y: -0.4}
   - {x: 0.4, y: -0.4}
-  goldIncreaseValue: 0
-  gemIncreaseValue: 0
+  goldIncreaseValue: 1
+  gemIncreaseValue: 2
+  increaseCountdown: 5
 --- !u!114 &864768731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12991,7 +12996,8 @@ MonoBehaviour:
   - {x: -0.4, y: -0.4}
   - {x: 0.4, y: -0.4}
   goldIncreaseValue: 0
-  gemIncreaseValue: 0
+  gemIncreaseValue: 1
+  increaseCountdown: 10
 --- !u!114 &1825959680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14460,8 +14466,9 @@ MonoBehaviour:
   - {x: 0.8, y: 0.4}
   - {x: -0.8, y: -0.4}
   - {x: 0, y: -0.4}
-  goldIncreaseValue: 0
-  gemIncreaseValue: 0
+  goldIncreaseValue: 1
+  gemIncreaseValue: 1
+  increaseCountdown: 7
 --- !u!114 &2073063646
 MonoBehaviour:
   m_ObjectHideFlags: 0
