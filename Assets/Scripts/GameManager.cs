@@ -22,9 +22,11 @@ public class GameManager : MonoBehaviour
     [HideInInspector] private TilePrefabCreator tilePrefabCreator;
 
     private bool isSetColor = false;
+    private bool isBuildingPlaceable = false;
     [HideInInspector] private List<GameObject> pickedTiles;
     [SerializeField] private Color vacantColor;
     [SerializeField] private Color occupiedColor;
+    [SerializeField] private Color defaultColor;
 
     private void Start()
     {
@@ -76,6 +78,8 @@ public class GameManager : MonoBehaviour
 
         PaintBlocks(blockCount, hit);
 
+        PlaceBuilding(blockCount);
+
         isSetColor = true;
     }
 
@@ -109,6 +113,7 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < blockCount; i++)
             {
+                isBuildingPlaceable = true;
                 SpriteRenderer spriteRenderer = activeBuildingPrefab.transform.GetChild(i).GetComponent<SpriteRenderer>();
                 spriteRenderer.color = vacantColor;
             }
@@ -117,6 +122,7 @@ public class GameManager : MonoBehaviour
         {
             for (int i = 0; i < blockCount; i++)
             {
+                isBuildingPlaceable = false;
                 SpriteRenderer spriteRenderer = activeBuildingPrefab.transform.GetChild(i).GetComponent<SpriteRenderer>();
                 spriteRenderer.color = occupiedColor;
             }
@@ -150,6 +156,39 @@ public class GameManager : MonoBehaviour
         }
 
         return true;
+    }
+
+    private void PlaceBuilding(int blockCount) 
+    {
+        if (Input.GetMouseButton(0) && isBuildingPlaceable)
+        {
+            for (int i = 0; i < blockCount; i++)
+            {
+                SpriteRenderer spriteRenderer = buildingToPlace.transform.GetChild(i).GetComponent<SpriteRenderer>();
+                spriteRenderer.color = defaultColor;
+            }
+
+            Vector2 distanceBtwMouseAndBlock0 = new Vector2(
+                customCursor.transform.position.x - activeBuildingPrefab.transform.GetChild(0).position.x,
+                customCursor.transform.position.y - activeBuildingPrefab.transform.GetChild(0).position.y);
+
+            Vector2 spawnPoint = new Vector2(
+                pickedTiles[0].transform.position.x + distanceBtwMouseAndBlock0.x,
+                pickedTiles[0].transform.position.y + distanceBtwMouseAndBlock0.y);
+
+            Instantiate(buildingToPlace, spawnPoint, Quaternion.identity);
+
+            for (int i = 0; i < blockCount; i++)
+            {
+                pickedTiles[i].GetComponent<Tile>().isOccupied = true;
+            }
+
+            Destroy(activeBuildingPrefab);
+        }
+        else if(Input.GetMouseButton(0) && !isBuildingPlaceable) 
+        {
+            Destroy(activeBuildingPrefab);
+        }
     }
 }
 

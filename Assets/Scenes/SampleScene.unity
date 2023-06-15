@@ -6114,6 +6114,7 @@ MonoBehaviour:
   buildingCardVariablesToPlace: {fileID: 0}
   vacantColor: {r: 0.039849162, g: 1, b: 0, a: 0.5019608}
   occupiedColor: {r: 1, g: 0, b: 0, a: 0.5019608}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &754854742
 MonoBehaviour:
   m_ObjectHideFlags: 0
