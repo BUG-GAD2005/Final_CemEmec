@@ -93,8 +93,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void SetAllBuildingCardsButtonsInactive() 
+    {
+        foreach (Button button in buildingCardButtons)
+        {
+            button.interactable = false;
+        }
+    }
+
     public void GetClickedBuilding(BuildingCardVariables buildingCardVariables)
     {
+        SetAllBuildingCardsButtonsInactive();
+
         activeBuildingPrefab = Instantiate(buildingPrefab, customCursor.transform);
         tilePrefabCreator.CreateTiles(activeBuildingPrefab, buildingCardVariables.tilePositions);
 
