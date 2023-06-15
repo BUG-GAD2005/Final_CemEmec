@@ -8,6 +8,7 @@ TagManager:
   - CustomCursor
   - Tile
   - Grid
+  - BuildingCard
   layers:
   - Default
   - TransparentFX

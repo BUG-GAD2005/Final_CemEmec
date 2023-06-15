@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] public int gold;
     [SerializeField] public int gem;
+    private List<Button> buildingCardButtons;
 
     [HideInInspector] private GameObject grid;
     [HideInInspector] public List<GameObject> tiles;
@@ -15,10 +16,12 @@ public class GameManager : MonoBehaviour
     [HideInInspector] private GameObject customCursor;
     [SerializeField] private GameObject buildingPrefab;
     private GameObject activeBuildingPrefab;
+    private BuildingCardVariables activeBuildingCardVariables;
 
     [HideInInspector] public GameObject buildingToPlace;
     [HideInInspector] public BuildingCardVariables buildingCardVariablesToPlace;
 
+    [HideInInspector] private ResourceView resourceView;
     [HideInInspector] private TilePrefabCreator tilePrefabCreator;
 
     private bool isSetColor = false;
@@ -30,21 +33,29 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+
+        resourceView = gameObject.GetComponent<ResourceView>();
+        resourceView.SetGoldAndGemView(gold, gem);
+
+        GetBuildingCardButtons();
+        SetBuildingCardButtonsInteractibility();
+
         SetGridTilemap();
+
         customCursor = GameObject.FindGameObjectWithTag("CustomCursor");
         tilePrefabCreator = gameObject.GetComponent<TilePrefabCreator>();
     }
 
     private void Update()
     {
-        if (isSetColor) 
+        if (isSetColor)
         {
             isSetColor = false;
             SetColor();
         }
     }
 
-    private void SetGridTilemap() 
+    private void SetGridTilemap()
     {
         tiles = new List<GameObject>();
         grid = GameObject.FindGameObjectWithTag("Grid");
@@ -56,21 +67,48 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GetClickedBuilding(BuildingCardVariables buildingCardVariables) 
+    private void GetBuildingCardButtons()
+    {
+        buildingCardButtons = new List<Button>();
+        GameObject[] buildingCardsArray = GameObject.FindGameObjectsWithTag("BuildingCard");
+
+        foreach (GameObject buildingCard in buildingCardsArray)
+        {
+            buildingCardButtons.Add(buildingCard.GetComponent<Button>());
+        }
+    }
+
+    private void SetBuildingCardButtonsInteractibility()
+    {
+        foreach (Button button in buildingCardButtons)
+        {
+            if (gold >= button.gameObject.GetComponent<BuildingCardVariables>().goldCost && gem >= button.gameObject.GetComponent<BuildingCardVariables>().gemCost)
+            {
+                button.interactable = true;
+            }
+            else
+            {
+                button.interactable = false;
+            }
+        }
+    }
+
+    public void GetClickedBuilding(BuildingCardVariables buildingCardVariables)
     {
         activeBuildingPrefab = Instantiate(buildingPrefab, customCursor.transform);
         tilePrefabCreator.CreateTiles(activeBuildingPrefab, buildingCardVariables.tilePositions);
 
+        activeBuildingCardVariables = buildingCardVariables;
         buildingToPlace = activeBuildingPrefab;
         isSetColor = true;
     }
 
-    private void SetColor() 
+    private void SetColor()
     {
         pickedTiles = new List<GameObject>();
 
         int blockCount = activeBuildingPrefab.transform.childCount;
-        int tileCount= GameObject.FindGameObjectsWithTag("Tile").Length;
+        int tileCount = GameObject.FindGameObjectsWithTag("Tile").Length;
 
         MatchBlocksAndTiles(blockCount);
 
@@ -147,9 +185,9 @@ public class GameManager : MonoBehaviour
 
     private bool IsNearestTilesVacant()
     {
-        for(int i = 0; i < pickedTiles.Count; i++) 
+        for (int i = 0; i < pickedTiles.Count; i++)
         {
-            if (pickedTiles[i].GetComponent<Tile>().isOccupied) 
+            if (pickedTiles[i].GetComponent<Tile>().isOccupied)
             {
                 return false;
             }
@@ -158,10 +196,13 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-    private void PlaceBuilding(int blockCount) 
+    private void PlaceBuilding(int blockCount)
     {
         if (Input.GetMouseButton(0) && isBuildingPlaceable)
         {
+            gold -= activeBuildingCardVariables.goldCost;
+            gem -= activeBuildingCardVariables.gemCost;
+
             for (int i = 0; i < blockCount; i++)
             {
                 SpriteRenderer spriteRenderer = buildingToPlace.transform.GetChild(i).GetComponent<SpriteRenderer>();
@@ -183,110 +224,17 @@ public class GameManager : MonoBehaviour
                 pickedTiles[i].GetComponent<Tile>().isOccupied = true;
             }
 
+            SetBuildingCardButtonsInteractibility();
+            resourceView.SetGoldAndGemView(gold, gem);
+
             Destroy(activeBuildingPrefab);
         }
-        else if(Input.GetMouseButton(0) && !isBuildingPlaceable) 
+        else if (Input.GetMouseButton(0) && !isBuildingPlaceable)
         {
             Destroy(activeBuildingPrefab);
         }
     }
 }
-
-/*public class ZortManager
-{
-    [SerializeField] private GameObject buildingPrefabGameObject;
-    [SerializeField] public GameObject customCursorGameObject;
-
-    public GameObject buildingTile;
-
-
-    public bool boool;
-
-
-    public int gold;
-    public int gem;
-    public Text goldText;
-    public Text gemText;
-
-    public int goldCost;
-    public int gemCost;
-
-    public GameObject buildingToPlace;
-    public Building buildingToPlaceScript;
-    public BuildingSchemes buildingSchemes;
-    private int buildingIndex;
-
-    
-
-    public Tile[] tiles;
-    public BuildingCard[] buildingCards;
-
-
-    private void Update()
-    {
-        if (buildingToPlace != null)
-        {
-
-            if (boool) 
-            {
-                boool = false;
-                buildingSchemes.SetColor();
-            }
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                //  buildingSchemes.Build();
-            }
-        }
-    }
-
-
-    public void BuyBuilding(GameObject buildingCardGameObject) 
-    {
-
-        boool = true;
-
-        TilePrefabCreator tilePrefabCreator = buildingCardGameObject.GetComponent<TilePrefabCreator>();
-
-        //buildingPrefabGameObject = Instantiate(buildingPrefabGameObject, customCursorGameObject.transform.position, Quaternion.identity, customCursorGameObject.transform);
-        tilePrefabCreator.CreateTiles(buildingPrefabGameObject);
-
-        buildingToPlace = buildingPrefabGameObject;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*public void NewBuyBuilding(BuildingCard buildingCard)
-    {
-
-
-        goldCost = buildingCard.goldCost;
-        gemCost = buildingCard.gemCost;
-
-        buildingToPlace = buildingCard.buildingPrefab;
-        buildingToPlaceScript = buildingCard.building;
-        buildingIndex = buildingCard.buildingIndex;
-        //tilePrefabCreator = buildingCard.GetComponent<TilePrefabCreator>();
-
-        //buildingPrefab = Instantiate(buildingPrefab, customCursor.transform.position, Quaternion.identity, customCursor.gameObject.transform);
-        //tilePrefabCreator.CreateTiles(buildingPrefab);
-    }*/
 
 
 

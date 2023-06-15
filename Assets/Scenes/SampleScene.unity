@@ -1310,9 +1310,10 @@ GameObject:
   - component: {fileID: 193186043}
   - component: {fileID: 193186046}
   - component: {fileID: 193186047}
+  - component: {fileID: 193186048}
   m_Layer: 5
   m_Name: BuildingF
-  m_TagString: Untagged
+  m_TagString: BuildingCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1458,6 +1459,21 @@ MonoBehaviour:
   - {x: 0.8, y: -0.4}
   goldIncreaseValue: 0
   gemIncreaseValue: 0
+--- !u!114 &193186048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193186041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2a8da4a705e2048b2da13cf873c4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: {fileID: 1397925874}
+  cardGoldCost: {fileID: 673009404}
+  cardGemCost: {fileID: 37405320}
 --- !u!1 &225943351
 GameObject:
   m_ObjectHideFlags: 0
@@ -4460,9 +4476,10 @@ GameObject:
   - component: {fileID: 544120445}
   - component: {fileID: 544120448}
   - component: {fileID: 544120449}
+  - component: {fileID: 544120450}
   m_Layer: 5
   m_Name: BuildingC
-  m_TagString: Untagged
+  m_TagString: BuildingCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4606,6 +4623,21 @@ MonoBehaviour:
   - {x: 0.4, y: -0.4}
   goldIncreaseValue: 0
   gemIncreaseValue: 0
+--- !u!114 &544120450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544120443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2a8da4a705e2048b2da13cf873c4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: {fileID: 980852678}
+  cardGoldCost: {fileID: 2021573834}
+  cardGemCost: {fileID: 115870219}
 --- !u!1 &549787010
 GameObject:
   m_ObjectHideFlags: 0
@@ -4816,7 +4848,7 @@ RectTransform:
   m_Children:
   - {fileID: 1411499462}
   m_Father: {fileID: 2133959589}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6071,6 +6103,7 @@ GameObject:
   - component: {fileID: 754854740}
   - component: {fileID: 754854741}
   - component: {fileID: 754854742}
+  - component: {fileID: 754854743}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6089,8 +6122,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1880158519}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6129,6 +6161,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TilePrefab: {fileID: 3049542602118555185, guid: ebff87d9a4248084fb6af930109c803f, type: 3}
   tileGameObjects: []
+--- !u!114 &754854743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754854739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975dae48d239c3a46867db5b8731c950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldValueText: {fileID: 498248411}
+  gemValueText: {fileID: 1411499463}
 --- !u!1 &762015828
 GameObject:
   m_ObjectHideFlags: 0
@@ -6632,9 +6678,10 @@ GameObject:
   - component: {fileID: 845125163}
   - component: {fileID: 845125166}
   - component: {fileID: 845125169}
+  - component: {fileID: 845125170}
   m_Layer: 5
   m_Name: BuildingA
-  m_TagString: Untagged
+  m_TagString: BuildingCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6777,6 +6824,21 @@ MonoBehaviour:
   - {x: 0.4, y: 0}
   goldIncreaseValue: 0
   gemIncreaseValue: 0
+--- !u!114 &845125170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845125161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2a8da4a705e2048b2da13cf873c4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: {fileID: 2093142310}
+  cardGoldCost: {fileID: 1802741080}
+  cardGemCost: {fileID: 2019321014}
 --- !u!1 &850420683
 GameObject:
   m_ObjectHideFlags: 0
@@ -7084,9 +7146,10 @@ GameObject:
   - component: {fileID: 864768726}
   - component: {fileID: 864768729}
   - component: {fileID: 864768730}
+  - component: {fileID: 864768731}
   m_Layer: 5
   m_Name: BuildingD
-  m_TagString: Untagged
+  m_TagString: BuildingCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7231,6 +7294,21 @@ MonoBehaviour:
   - {x: 0.4, y: -0.4}
   goldIncreaseValue: 0
   gemIncreaseValue: 0
+--- !u!114 &864768731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864768724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2a8da4a705e2048b2da13cf873c4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: {fileID: 250185545}
+  cardGoldCost: {fileID: 680769718}
+  cardGemCost: {fileID: 707232663}
 --- !u!1 &872929372
 GameObject:
   m_ObjectHideFlags: 0
@@ -9334,7 +9412,7 @@ RectTransform:
   m_Children:
   - {fileID: 498248410}
   m_Father: {fileID: 2133959589}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12766,9 +12844,10 @@ GameObject:
   - component: {fileID: 1825959675}
   - component: {fileID: 1825959678}
   - component: {fileID: 1825959679}
+  - component: {fileID: 1825959680}
   m_Layer: 5
   m_Name: BuildingB
-  m_TagString: Untagged
+  m_TagString: BuildingCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12912,6 +12991,21 @@ MonoBehaviour:
   - {x: 0.4, y: -0.4}
   goldIncreaseValue: 0
   gemIncreaseValue: 0
+--- !u!114 &1825959680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825959673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2a8da4a705e2048b2da13cf873c4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: {fileID: 1039113265}
+  cardGoldCost: {fileID: 404263757}
+  cardGemCost: {fileID: 556067975}
 --- !u!1 &1832475744
 GameObject:
   m_ObjectHideFlags: 0
@@ -12988,59 +13082,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832475744}
   m_CullTransparentMesh: 1
---- !u!1 &1880158518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1880158519}
-  - component: {fileID: 1880158520}
-  m_Layer: 0
-  m_Name: BuildingSchemes
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1880158519
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1880158518}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 754854740}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1880158520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1880158518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 961b4844a69726e43b43451b1dde3245, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 754854741}
-  canvas: {fileID: 2133959585}
-  nearestTileList: []
-  vacantColor: {r: 0, g: 1, b: 0, a: 0.5019608}
-  occupiedColor: {r: 1, g: 0, b: 0, a: 0.5019608}
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  goldTransform: {fileID: 0}
-  gemTransform: {fileID: 0}
-  textPrefab: {fileID: 0}
 --- !u!1 &1887497643
 GameObject:
   m_ObjectHideFlags: 0
@@ -14271,9 +14312,10 @@ GameObject:
   - component: {fileID: 2073063641}
   - component: {fileID: 2073063644}
   - component: {fileID: 2073063645}
+  - component: {fileID: 2073063646}
   m_Layer: 5
   m_Name: BuildingE
-  m_TagString: Untagged
+  m_TagString: BuildingCard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14419,6 +14461,21 @@ MonoBehaviour:
   - {x: 0, y: -0.4}
   goldIncreaseValue: 0
   gemIncreaseValue: 0
+--- !u!114 &2073063646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073063639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2a8da4a705e2048b2da13cf873c4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: {fileID: 1275373262}
+  cardGoldCost: {fileID: 1269001369}
+  cardGemCost: {fileID: 1235959279}
 --- !u!1 &2093142308
 GameObject:
   m_ObjectHideFlags: 0
@@ -14787,8 +14844,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 559018534}
   - {fileID: 1239694122}
+  - {fileID: 559018534}
   - {fileID: 845125162}
   - {fileID: 1825959674}
   - {fileID: 544120444}
