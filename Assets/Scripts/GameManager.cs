@@ -10,11 +10,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int gem;
     private List<Button> buildingCardButtons;
 
+    private GameObject canvas;
     [HideInInspector] private GameObject grid;
     [HideInInspector] public List<GameObject> tiles;
 
     [HideInInspector] private GameObject customCursor;
     [SerializeField] private GameObject buildingPrefab;
+    [SerializeField] private GameObject floatingText;
     private GameObject activeBuildingPrefab;
     private BuildingCardVariables activeBuildingCardVariables;
 
@@ -33,9 +35,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-
         resourceView = gameObject.GetComponent<ResourceView>();
         resourceView.SetGoldAndGemView(gold, gem);
+        canvas = GameObject.FindGameObjectWithTag("Canvas");
 
         GetBuildingCardButtons();
         SetBuildingCardButtonsInteractibility();
@@ -219,6 +221,11 @@ public class GameManager : MonoBehaviour
                 spriteRenderer.color = defaultColor;
             }
 
+            for (int i = 0; i < blockCount; i++)
+            {
+                pickedTiles[i].GetComponent<Tile>().isOccupied = true;
+            }
+
             Vector2 distanceBtwMouseAndBlock0 = new Vector2(
                 customCursor.transform.position.x - activeBuildingPrefab.transform.GetChild(0).position.x,
                 customCursor.transform.position.y - activeBuildingPrefab.transform.GetChild(0).position.y);
@@ -229,12 +236,11 @@ public class GameManager : MonoBehaviour
 
             Instantiate(buildingToPlace, spawnPoint, Quaternion.identity);
 
-            for (int i = 0; i < blockCount; i++)
-            {
-                pickedTiles[i].GetComponent<Tile>().isOccupied = true;
-            }
+            SpawnResourceFloatingTexts();
+            SpawnBuildingFloatingTexts(spawnPoint);
 
             SetBuildingCardButtonsInteractibility();
+
             resourceView.SetGoldAndGemView(gold, gem);
 
             Destroy(activeBuildingPrefab);
@@ -243,6 +249,30 @@ public class GameManager : MonoBehaviour
         {
             Destroy(activeBuildingPrefab);
         }
+    }
+
+    private void SpawnResourceFloatingTexts() 
+    {
+        Vector2 goldSpawnPoint = resourceView.goldValueText.gameObject.transform.parent.transform.position;
+        Vector2 gemSpawnPoint = resourceView.gemValueText.gameObject.transform.parent.transform.position;
+
+        GameObject goldFloatingText = Instantiate(floatingText, goldSpawnPoint, Quaternion.identity, canvas.transform);
+        GameObject gemFloatingText = Instantiate(floatingText, gemSpawnPoint, Quaternion.identity, canvas.transform);
+
+        goldFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(activeBuildingCardVariables.goldCost, "-");
+        gemFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(activeBuildingCardVariables.gemCost, "-");
+    }
+
+    private void SpawnBuildingFloatingTexts(Vector2 spawnPoint) 
+    {
+        Vector2 goldSpawnPoint = new Vector2(spawnPoint.x - 0.4f, spawnPoint.y);
+        Vector2 gemSpawnPoint = new Vector2(spawnPoint.x + 0.4f, spawnPoint.y);
+
+        GameObject goldFloatingText = Instantiate(floatingText, goldSpawnPoint, Quaternion.identity, canvas.transform);
+        GameObject gemFloatingText = Instantiate(floatingText, gemSpawnPoint, Quaternion.identity, canvas.transform);
+
+        goldFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(activeBuildingCardVariables.goldCost, "-");
+        gemFloatingText.GetComponent<FloatingText>().SetFloatingTextValue(activeBuildingCardVariables.gemCost, "-");
     }
 }
 

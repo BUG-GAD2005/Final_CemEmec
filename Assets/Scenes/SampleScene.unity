@@ -6142,6 +6142,7 @@ MonoBehaviour:
   gem: 10
   tiles: []
   buildingPrefab: {fileID: 3353606006593919141, guid: 1f58b3e4da9cf47408fbaad4a12049f8, type: 3}
+  floatingText: {fileID: 1395622607672280603, guid: 8473311899256224f99108510a99425c, type: 3}
   buildingToPlace: {fileID: 0}
   buildingCardVariablesToPlace: {fileID: 0}
   vacantColor: {r: 0.039849162, g: 1, b: 0, a: 0.5019608}
