@@ -15,13 +15,11 @@ public class BuildingCard : MonoBehaviour
     private Button button;
 
     public int buildingIndex;
-    public GameObject buildingPrefab;
     public Building building;
 
     private void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
-        building = buildingPrefab.GetComponent<Building>();
         goldCostText.text = goldCost.ToString();
         gemCostText.text = gemCost.ToString();
         button = GetComponent<Button>();

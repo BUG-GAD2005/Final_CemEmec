@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 19883001}
   m_Layer: 6
   m_Name: tile-empty (97)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 23182170}
   m_Layer: 6
   m_Name: tile-empty (12)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 34136790}
   m_Layer: 6
   m_Name: tile-empty (93)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 34555038}
   m_Layer: 6
   m_Name: tile-empty (14)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -580,7 +580,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -627,7 +627,7 @@ RectTransform:
   m_Children:
   - {fileID: 404263756}
   m_Father: {fileID: 1825959674}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 69312532}
   m_Layer: 6
   m_Name: tile-empty
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -801,11 +801,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1825959674}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75170729
@@ -911,7 +911,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 116949052}
   m_Layer: 6
   m_Name: tile-empty (30)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 118190678}
   m_Layer: 6
   m_Name: tile-empty (83)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1154,7 +1154,7 @@ RectTransform:
   m_Children:
   - {fileID: 2019321013}
   m_Father: {fileID: 845125162}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 186693944}
   m_Layer: 6
   m_Name: tile-empty (55)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1309,7 +1309,7 @@ GameObject:
   - component: {fileID: 193186044}
   - component: {fileID: 193186043}
   - component: {fileID: 193186046}
-  - component: {fileID: 193186045}
+  - component: {fileID: 193186047}
   m_Layer: 5
   m_Name: BuildingF
   m_TagString: Untagged
@@ -1329,6 +1329,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1397925873}
   - {fileID: 1205701628}
   - {fileID: 321345004}
   - {fileID: 383469873}
@@ -1378,25 +1379,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193186041}
   m_CullTransparentMesh: 1
---- !u!114 &193186045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193186041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3daf0c8371b8155438e387bb7d29822d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goldCost: 3
-  gemCost: 2
-  goldCostText: {fileID: 673009404}
-  gemCostText: {fileID: 37405320}
-  buildingIndex: 5
-  buildingPrefab: {fileID: 6436151598070868463, guid: ac84e417cbace384fa7578c3d454bb59, type: 3}
-  building: {fileID: 0}
 --- !u!114 &193186046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1440,7 +1422,42 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 193186043}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 754854741}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GetClickedBuilding
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 193186047}
+          m_ObjectArgumentAssemblyTypeName: BuildingCardVariables, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &193186047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193186041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c29832c6bcdfe4897bc60933357073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: Train
+  goldCost: 3
+  gemCost: 2
+  tilePositions:
+  - {x: -0.8, y: 0.4}
+  - {x: 0, y: 0.4}
+  - {x: 0.8, y: 0.4}
+  - {x: 0, y: -0.4}
+  - {x: 0.8, y: -0.4}
+  goldIncreaseValue: 0
+  gemIncreaseValue: 0
 --- !u!1 &225943351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,7 +1471,7 @@ GameObject:
   - component: {fileID: 225943354}
   m_Layer: 6
   m_Name: tile-empty (50)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1552,7 +1569,7 @@ GameObject:
   - component: {fileID: 230989785}
   m_Layer: 6
   m_Name: tile-empty (82)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1650,7 +1667,7 @@ GameObject:
   - component: {fileID: 234681546}
   m_Layer: 6
   m_Name: tile-empty (10)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1748,7 +1765,7 @@ GameObject:
   - component: {fileID: 238358861}
   m_Layer: 6
   m_Name: tile-empty (87)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1833,6 +1850,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+--- !u!1 &250185543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250185544}
+  - component: {fileID: 250185546}
+  - component: {fileID: 250185545}
+  m_Layer: 5
+  m_Name: BuildingNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &250185544
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250185543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 864768725}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 85}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &250185545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250185543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NAME
+--- !u!222 &250185546
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250185543}
+  m_CullTransparentMesh: 1
 --- !u!1 &264475778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,7 +1943,7 @@ GameObject:
   - component: {fileID: 264475781}
   m_Layer: 6
   m_Name: tile-empty (24)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1944,7 +2041,7 @@ GameObject:
   - component: {fileID: 269295518}
   m_Layer: 6
   m_Name: tile-empty (85)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2042,7 +2139,7 @@ GameObject:
   - component: {fileID: 278673683}
   m_Layer: 6
   m_Name: tile-empty (5)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2140,7 +2237,7 @@ GameObject:
   - component: {fileID: 284189113}
   m_Layer: 6
   m_Name: tile-empty (22)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2238,7 +2335,7 @@ GameObject:
   - component: {fileID: 286954209}
   m_Layer: 6
   m_Name: tile-empty (40)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2336,7 +2433,7 @@ GameObject:
   - component: {fileID: 292099862}
   m_Layer: 6
   m_Name: tile-empty (38)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2453,7 +2550,7 @@ RectTransform:
   m_Children:
   - {fileID: 2021573833}
   m_Father: {fileID: 544120444}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2530,7 +2627,7 @@ RectTransform:
   m_Children:
   - {fileID: 673009403}
   m_Father: {fileID: 193186042}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2588,7 +2685,7 @@ GameObject:
   - component: {fileID: 339687338}
   m_Layer: 6
   m_Name: tile-empty (9)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2686,7 +2783,7 @@ GameObject:
   - component: {fileID: 354638630}
   m_Layer: 6
   m_Name: tile-empty (74)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2803,7 +2900,7 @@ RectTransform:
   m_Children:
   - {fileID: 37405319}
   m_Father: {fileID: 193186042}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2861,7 +2958,7 @@ GameObject:
   - component: {fileID: 387042107}
   m_Layer: 6
   m_Name: tile-empty (34)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2959,7 +3056,7 @@ GameObject:
   - component: {fileID: 398667768}
   m_Layer: 6
   m_Name: tile-empty (7)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3057,7 +3154,7 @@ GameObject:
   - component: {fileID: 403213687}
   m_Layer: 6
   m_Name: tile-empty (8)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3207,7 +3304,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3315,7 +3412,7 @@ GameObject:
   - component: {fileID: 442994786}
   m_Layer: 6
   m_Name: tile-empty (58)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3413,7 +3510,7 @@ GameObject:
   - component: {fileID: 446203193}
   m_Layer: 6
   m_Name: tile-empty (44)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3511,7 +3608,7 @@ GameObject:
   - component: {fileID: 477525985}
   m_Layer: 6
   m_Name: tile-empty (92)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3609,7 +3706,7 @@ GameObject:
   - component: {fileID: 477633587}
   m_Layer: 6
   m_Name: tile-empty (27)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3707,7 +3804,7 @@ GameObject:
   - component: {fileID: 485250184}
   m_Layer: 6
   m_Name: tile-empty (79)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3805,7 +3902,7 @@ GameObject:
   - component: {fileID: 487019321}
   m_Layer: 6
   m_Name: tile-empty (66)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3985,7 +4082,7 @@ GameObject:
   - component: {fileID: 500272393}
   m_Layer: 6
   m_Name: tile-empty (32)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4083,7 +4180,7 @@ GameObject:
   - component: {fileID: 500641579}
   m_Layer: 6
   m_Name: tile-empty (89)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4265,7 +4362,7 @@ GameObject:
   - component: {fileID: 522830066}
   m_Layer: 6
   m_Name: tile-empty (31)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4362,7 +4459,7 @@ GameObject:
   - component: {fileID: 544120446}
   - component: {fileID: 544120445}
   - component: {fileID: 544120448}
-  - component: {fileID: 544120447}
+  - component: {fileID: 544120449}
   m_Layer: 5
   m_Name: BuildingC
   m_TagString: Untagged
@@ -4382,6 +4479,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 980852677}
   - {fileID: 1475660956}
   - {fileID: 294266082}
   - {fileID: 1887497644}
@@ -4431,25 +4529,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544120443}
   m_CullTransparentMesh: 1
---- !u!114 &544120447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544120443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3daf0c8371b8155438e387bb7d29822d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goldCost: 3
-  gemCost: 2
-  goldCostText: {fileID: 2021573834}
-  gemCostText: {fileID: 115870219}
-  buildingIndex: 2
-  buildingPrefab: {fileID: 6436151598070868463, guid: ac84e417cbace384fa7578c3d454bb59, type: 3}
-  building: {fileID: 0}
 --- !u!114 &544120448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4493,7 +4572,40 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 544120445}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 754854741}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GetClickedBuilding
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 544120449}
+          m_ObjectArgumentAssemblyTypeName: BuildingCardVariables, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &544120449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544120443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c29832c6bcdfe4897bc60933357073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: Castle
+  goldCost: 3
+  gemCost: 2
+  tilePositions:
+  - {x: 0.4, y: 0.4}
+  - {x: -0.4, y: -0.4}
+  - {x: 0.4, y: -0.4}
+  goldIncreaseValue: 0
+  gemIncreaseValue: 0
 --- !u!1 &549787010
 GameObject:
   m_ObjectHideFlags: 0
@@ -4507,7 +4619,7 @@ GameObject:
   - component: {fileID: 549787013}
   m_Layer: 6
   m_Name: tile-empty (20)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4657,7 +4769,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -4762,7 +4874,7 @@ GameObject:
   - component: {fileID: 563255405}
   m_Layer: 6
   m_Name: tile-empty (84)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4860,7 +4972,7 @@ GameObject:
   - component: {fileID: 576388982}
   m_Layer: 6
   m_Name: tile-empty (2)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4958,7 +5070,7 @@ GameObject:
   - component: {fileID: 588216198}
   m_Layer: 6
   m_Name: tile-empty (69)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5056,7 +5168,7 @@ GameObject:
   - component: {fileID: 590591905}
   m_Layer: 6
   m_Name: tile-empty (70)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5154,7 +5266,7 @@ GameObject:
   - component: {fileID: 590782348}
   m_Layer: 6
   m_Name: tile-empty (67)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5252,7 +5364,7 @@ GameObject:
   - component: {fileID: 593215482}
   m_Layer: 6
   m_Name: tile-empty (53)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5350,7 +5462,7 @@ GameObject:
   - component: {fileID: 615695034}
   m_Layer: 6
   m_Name: tile-empty (76)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5448,7 +5560,7 @@ GameObject:
   - component: {fileID: 634051054}
   m_Layer: 6
   m_Name: tile-empty (48)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5565,7 +5677,7 @@ RectTransform:
   m_Children:
   - {fileID: 556067974}
   m_Father: {fileID: 1825959674}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5675,7 +5787,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -5755,7 +5867,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -5835,7 +5947,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -5863,7 +5975,7 @@ GameObject:
   - component: {fileID: 751176553}
   m_Layer: 6
   m_Name: tile-empty (71)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5958,6 +6070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 754854740}
   - component: {fileID: 754854741}
+  - component: {fileID: 754854742}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5995,122 +6108,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gold: 10
   gem: 10
-  goldText: {fileID: 498248411}
-  gemText: {fileID: 1411499463}
-  goldCost: 0
-  gemCost: 0
+  tiles: []
+  buildingPrefab: {fileID: 3353606006593919141, guid: 1f58b3e4da9cf47408fbaad4a12049f8, type: 3}
   buildingToPlace: {fileID: 0}
-  buildingToPlaceScript: {fileID: 0}
-  buildingSchemes: {fileID: 1880158520}
-  customCursor: {fileID: 1788596577}
-  tiles:
-  - {fileID: 69312532}
-  - {fileID: 1400833684}
-  - {fileID: 576388982}
-  - {fileID: 1116821423}
-  - {fileID: 1277388125}
-  - {fileID: 278673683}
-  - {fileID: 2113125129}
-  - {fileID: 398667768}
-  - {fileID: 403213687}
-  - {fileID: 339687338}
-  - {fileID: 234681546}
-  - {fileID: 1974427000}
-  - {fileID: 23182170}
-  - {fileID: 1490563162}
-  - {fileID: 34555038}
-  - {fileID: 911760453}
-  - {fileID: 1621571838}
-  - {fileID: 1749440887}
-  - {fileID: 1414272514}
-  - {fileID: 1193423231}
-  - {fileID: 549787013}
-  - {fileID: 858910949}
-  - {fileID: 284189113}
-  - {fileID: 1392935129}
-  - {fileID: 264475781}
-  - {fileID: 2125179198}
-  - {fileID: 1589886673}
-  - {fileID: 477633587}
-  - {fileID: 1292342218}
-  - {fileID: 1555008748}
-  - {fileID: 116949052}
-  - {fileID: 522830066}
-  - {fileID: 500272393}
-  - {fileID: 1963319585}
-  - {fileID: 387042107}
-  - {fileID: 1318689914}
-  - {fileID: 860581609}
-  - {fileID: 1979879069}
-  - {fileID: 292099862}
-  - {fileID: 1337348918}
-  - {fileID: 286954209}
-  - {fileID: 1333071670}
-  - {fileID: 1449204765}
-  - {fileID: 817744386}
-  - {fileID: 446203193}
-  - {fileID: 1768823924}
-  - {fileID: 1932697870}
-  - {fileID: 1108152413}
-  - {fileID: 634051054}
-  - {fileID: 1932344684}
-  - {fileID: 225943354}
-  - {fileID: 957076856}
-  - {fileID: 938224559}
-  - {fileID: 593215482}
-  - {fileID: 769865065}
-  - {fileID: 186693944}
-  - {fileID: 1308306182}
-  - {fileID: 2055117079}
-  - {fileID: 442994786}
-  - {fileID: 762146338}
-  - {fileID: 1988634442}
-  - {fileID: 1382437879}
-  - {fileID: 1942523582}
-  - {fileID: 1425144307}
-  - {fileID: 1135410398}
-  - {fileID: 1164745853}
-  - {fileID: 487019321}
-  - {fileID: 590782348}
-  - {fileID: 1068973605}
-  - {fileID: 588216198}
-  - {fileID: 590591905}
-  - {fileID: 751176553}
-  - {fileID: 1370075580}
-  - {fileID: 1673289734}
-  - {fileID: 354638630}
-  - {fileID: 1510273755}
-  - {fileID: 615695034}
-  - {fileID: 762015831}
-  - {fileID: 897536740}
-  - {fileID: 485250184}
-  - {fileID: 1084829484}
-  - {fileID: 1976416309}
-  - {fileID: 230989785}
-  - {fileID: 118190678}
-  - {fileID: 563255405}
-  - {fileID: 269295518}
-  - {fileID: 872929375}
-  - {fileID: 238358861}
-  - {fileID: 850420686}
-  - {fileID: 500641579}
-  - {fileID: 1477202051}
-  - {fileID: 819039501}
-  - {fileID: 477525985}
-  - {fileID: 34136790}
-  - {fileID: 2025983729}
-  - {fileID: 1503572651}
-  - {fileID: 1468607788}
-  - {fileID: 19883001}
-  - {fileID: 1625830082}
-  - {fileID: 1568308335}
-  buildingCards:
-  - {fileID: 845125167}
-  - {fileID: 1825959677}
-  - {fileID: 544120447}
-  - {fileID: 864768728}
-  - {fileID: 2073063643}
-  - {fileID: 193186045}
+  buildingCardVariablesToPlace: {fileID: 0}
+  vacantColor: {r: 0.039849162, g: 1, b: 0, a: 0.5019608}
+  occupiedColor: {r: 1, g: 0, b: 0, a: 0.5019608}
+--- !u!114 &754854742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754854739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c98ca96e7963b459482617db83e86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TilePrefab: {fileID: 3049542602118555185, guid: ebff87d9a4248084fb6af930109c803f, type: 3}
+  tileGameObjects: []
 --- !u!1 &762015828
 GameObject:
   m_ObjectHideFlags: 0
@@ -6124,7 +6141,7 @@ GameObject:
   - component: {fileID: 762015831}
   m_Layer: 6
   m_Name: tile-empty (77)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6222,7 +6239,7 @@ GameObject:
   - component: {fileID: 762146338}
   m_Layer: 6
   m_Name: tile-empty (59)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6320,7 +6337,7 @@ GameObject:
   - component: {fileID: 769865065}
   m_Layer: 6
   m_Name: tile-empty (54)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6418,7 +6435,7 @@ GameObject:
   - component: {fileID: 817744386}
   m_Layer: 6
   m_Name: tile-empty (43)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6516,7 +6533,7 @@ GameObject:
   - component: {fileID: 819039501}
   m_Layer: 6
   m_Name: tile-empty (91)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6613,7 +6630,7 @@ GameObject:
   - component: {fileID: 845125164}
   - component: {fileID: 845125163}
   - component: {fileID: 845125166}
-  - component: {fileID: 845125167}
+  - component: {fileID: 845125169}
   m_Layer: 5
   m_Name: BuildingA
   m_TagString: Untagged
@@ -6633,6 +6650,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2093142309}
   - {fileID: 1832475745}
   - {fileID: 896270252}
   - {fileID: 140410678}
@@ -6728,17 +6746,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 754854741}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: BuyBuilding
+        m_MethodName: GetClickedBuilding
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 845125167}
-          m_ObjectArgumentAssemblyTypeName: BuildingCard, Assembly-CSharp
+          m_ObjectArgument: {fileID: 845125169}
+          m_ObjectArgumentAssemblyTypeName: BuildingCardVariables, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &845125167
+--- !u!114 &845125169
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6747,16 +6765,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 845125161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3daf0c8371b8155438e387bb7d29822d, type: 3}
+  m_Script: {fileID: 11500000, guid: f6c29832c6bcdfe4897bc60933357073, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardName: Pawn
   goldCost: 1
   gemCost: 0
-  goldCostText: {fileID: 1802741080}
-  gemCostText: {fileID: 2019321014}
-  buildingIndex: 0
-  buildingPrefab: {fileID: 6436151598070868463, guid: ac84e417cbace384fa7578c3d454bb59, type: 3}
-  building: {fileID: 0}
+  tilePositions:
+  - {x: -0.4, y: 0}
+  - {x: 0.4, y: 0}
+  goldIncreaseValue: 0
+  gemIncreaseValue: 0
 --- !u!1 &850420683
 GameObject:
   m_ObjectHideFlags: 0
@@ -6770,7 +6789,7 @@ GameObject:
   - component: {fileID: 850420686}
   m_Layer: 6
   m_Name: tile-empty (88)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6868,7 +6887,7 @@ GameObject:
   - component: {fileID: 858910949}
   m_Layer: 6
   m_Name: tile-empty (21)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6966,7 +6985,7 @@ GameObject:
   - component: {fileID: 860581609}
   m_Layer: 6
   m_Name: tile-empty (36)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7063,7 +7082,7 @@ GameObject:
   - component: {fileID: 864768727}
   - component: {fileID: 864768726}
   - component: {fileID: 864768729}
-  - component: {fileID: 864768728}
+  - component: {fileID: 864768730}
   m_Layer: 5
   m_Name: BuildingD
   m_TagString: Untagged
@@ -7083,6 +7102,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 250185544}
   - {fileID: 1459339683}
   - {fileID: 1079433495}
   - {fileID: 1152660534}
@@ -7132,25 +7152,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864768724}
   m_CullTransparentMesh: 1
---- !u!114 &864768728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 864768724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3daf0c8371b8155438e387bb7d29822d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goldCost: 2
-  gemCost: 3
-  goldCostText: {fileID: 680769718}
-  gemCostText: {fileID: 707232663}
-  buildingIndex: 3
-  buildingPrefab: {fileID: 6436151598070868463, guid: ac84e417cbace384fa7578c3d454bb59, type: 3}
-  building: {fileID: 0}
 --- !u!114 &864768729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7194,7 +7195,41 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 864768726}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 754854741}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GetClickedBuilding
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 864768730}
+          m_ObjectArgumentAssemblyTypeName: BuildingCardVariables, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &864768730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864768724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c29832c6bcdfe4897bc60933357073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: Car
+  goldCost: 2
+  gemCost: 3
+  tilePositions:
+  - {x: -0.4, y: 0.4}
+  - {x: 0.4, y: 0.4}
+  - {x: -0.4, y: -0.4}
+  - {x: 0.4, y: -0.4}
+  goldIncreaseValue: 0
+  gemIncreaseValue: 0
 --- !u!1 &872929372
 GameObject:
   m_ObjectHideFlags: 0
@@ -7208,7 +7243,7 @@ GameObject:
   - component: {fileID: 872929375}
   m_Layer: 6
   m_Name: tile-empty (86)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7325,7 +7360,7 @@ RectTransform:
   m_Children:
   - {fileID: 1802741079}
   m_Father: {fileID: 845125162}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7383,7 +7418,7 @@ GameObject:
   - component: {fileID: 897536740}
   m_Layer: 6
   m_Name: tile-empty (78)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7481,7 +7516,7 @@ GameObject:
   - component: {fileID: 911760453}
   m_Layer: 6
   m_Name: tile-empty (15)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7579,7 +7614,7 @@ GameObject:
   - component: {fileID: 938224559}
   m_Layer: 6
   m_Name: tile-empty (52)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7677,7 +7712,7 @@ GameObject:
   - component: {fileID: 957076856}
   m_Layer: 6
   m_Name: tile-empty (51)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7762,6 +7797,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+--- !u!1 &980852676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 980852677}
+  - component: {fileID: 980852679}
+  - component: {fileID: 980852678}
+  m_Layer: 5
+  m_Name: BuildingNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &980852677
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980852676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 544120444}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 85}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &980852678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980852676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NAME
+--- !u!222 &980852679
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980852676}
+  m_CullTransparentMesh: 1
 --- !u!1 &1035465623
 GameObject:
   m_ObjectHideFlags: 0
@@ -7884,6 +7999,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035465623}
   m_CullTransparentMesh: 1
+--- !u!1 &1039113263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1039113264}
+  - component: {fileID: 1039113266}
+  - component: {fileID: 1039113265}
+  m_Layer: 5
+  m_Name: BuildingNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1039113264
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039113263}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1825959674}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 85}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1039113265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039113263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NAME
+--- !u!222 &1039113266
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039113263}
+  m_CullTransparentMesh: 1
 --- !u!1 &1068973602
 GameObject:
   m_ObjectHideFlags: 0
@@ -7897,7 +8092,7 @@ GameObject:
   - component: {fileID: 1068973605}
   m_Layer: 6
   m_Name: tile-empty (68)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8082,7 +8277,7 @@ RectTransform:
   m_Children:
   - {fileID: 680769717}
   m_Father: {fileID: 864768725}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8140,7 +8335,7 @@ GameObject:
   - component: {fileID: 1084829484}
   m_Layer: 6
   m_Name: tile-empty (80)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8238,7 +8433,7 @@ GameObject:
   - component: {fileID: 1108152413}
   m_Layer: 6
   m_Name: tile-empty (47)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8336,7 +8531,7 @@ GameObject:
   - component: {fileID: 1116821423}
   m_Layer: 6
   m_Name: tile-empty (3)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8434,7 +8629,7 @@ GameObject:
   - component: {fileID: 1135410398}
   m_Layer: 6
   m_Name: tile-empty (64)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8551,7 +8746,7 @@ RectTransform:
   m_Children:
   - {fileID: 707232662}
   m_Father: {fileID: 864768725}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8609,7 +8804,7 @@ GameObject:
   - component: {fileID: 1164745853}
   m_Layer: 6
   m_Name: tile-empty (65)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8706,7 +8901,7 @@ GameObject:
   - component: {fileID: 1182928470}
   m_Layer: 6
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Grid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8865,7 +9060,7 @@ GameObject:
   - component: {fileID: 1193423231}
   m_Layer: 6
   m_Name: tile-empty (19)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8981,11 +9176,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 193186042}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1205701629
@@ -9091,7 +9286,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -9248,7 +9443,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -9263,6 +9458,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269001367}
   m_CullTransparentMesh: 1
+--- !u!1 &1275373260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1275373261}
+  - component: {fileID: 1275373263}
+  - component: {fileID: 1275373262}
+  m_Layer: 5
+  m_Name: BuildingNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1275373261
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275373260}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2073063640}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 85}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1275373262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275373260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NAME
+--- !u!222 &1275373263
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275373260}
+  m_CullTransparentMesh: 1
 --- !u!1 &1277388122
 GameObject:
   m_ObjectHideFlags: 0
@@ -9276,7 +9551,7 @@ GameObject:
   - component: {fileID: 1277388125}
   m_Layer: 6
   m_Name: tile-empty (4)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9374,7 +9649,7 @@ GameObject:
   - component: {fileID: 1292342218}
   m_Layer: 6
   m_Name: tile-empty (28)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9472,7 +9747,7 @@ GameObject:
   - component: {fileID: 1308306182}
   m_Layer: 6
   m_Name: tile-empty (56)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9588,11 +9863,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2073063640}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1311161198
@@ -9646,7 +9921,7 @@ GameObject:
   - component: {fileID: 1318689914}
   m_Layer: 6
   m_Name: tile-empty (35)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9744,7 +10019,7 @@ GameObject:
   - component: {fileID: 1333071670}
   m_Layer: 6
   m_Name: tile-empty (41)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9842,7 +10117,7 @@ GameObject:
   - component: {fileID: 1337348918}
   m_Layer: 6
   m_Name: tile-empty (39)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9940,7 +10215,7 @@ GameObject:
   - component: {fileID: 1370075580}
   m_Layer: 6
   m_Name: tile-empty (72)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10038,7 +10313,7 @@ GameObject:
   - component: {fileID: 1382437879}
   m_Layer: 6
   m_Name: tile-empty (61)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10136,7 +10411,7 @@ GameObject:
   - component: {fileID: 1392935129}
   m_Layer: 6
   m_Name: tile-empty (23)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10221,6 +10496,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+--- !u!1 &1397925872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1397925873}
+  - component: {fileID: 1397925875}
+  - component: {fileID: 1397925874}
+  m_Layer: 5
+  m_Name: BuildingNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1397925873
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397925872}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 193186042}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 85}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1397925874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397925872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NAME
+--- !u!222 &1397925875
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397925872}
+  m_CullTransparentMesh: 1
 --- !u!1 &1400833681
 GameObject:
   m_ObjectHideFlags: 0
@@ -10234,7 +10589,7 @@ GameObject:
   - component: {fileID: 1400833684}
   m_Layer: 6
   m_Name: tile-empty (1)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10412,7 +10767,7 @@ GameObject:
   - component: {fileID: 1414272514}
   m_Layer: 6
   m_Name: tile-empty (18)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10510,7 +10865,7 @@ GameObject:
   - component: {fileID: 1425144307}
   m_Layer: 6
   m_Name: tile-empty (63)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10608,7 +10963,7 @@ GameObject:
   - component: {fileID: 1449204765}
   m_Layer: 6
   m_Name: tile-empty (42)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10724,11 +11079,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 864768725}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1459339684
@@ -10782,7 +11137,7 @@ GameObject:
   - component: {fileID: 1468607788}
   m_Layer: 6
   m_Name: tile-empty (96)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10898,11 +11253,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 544120444}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475660957
@@ -10956,7 +11311,7 @@ GameObject:
   - component: {fileID: 1477202051}
   m_Layer: 6
   m_Name: tile-empty (90)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11054,7 +11409,7 @@ GameObject:
   - component: {fileID: 1490563162}
   m_Layer: 6
   m_Name: tile-empty (13)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11152,7 +11507,7 @@ GameObject:
   - component: {fileID: 1503572651}
   m_Layer: 6
   m_Name: tile-empty (95)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11250,7 +11605,7 @@ GameObject:
   - component: {fileID: 1510273755}
   m_Layer: 6
   m_Name: tile-empty (75)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11348,7 +11703,7 @@ GameObject:
   - component: {fileID: 1555008748}
   m_Layer: 6
   m_Name: tile-empty (29)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11446,7 +11801,7 @@ GameObject:
   - component: {fileID: 1568308335}
   m_Layer: 6
   m_Name: tile-empty (99)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11563,7 +11918,7 @@ RectTransform:
   m_Children:
   - {fileID: 1269001368}
   m_Father: {fileID: 2073063640}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11621,7 +11976,7 @@ GameObject:
   - component: {fileID: 1589886673}
   m_Layer: 6
   m_Name: tile-empty (26)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11738,7 +12093,7 @@ RectTransform:
   m_Children:
   - {fileID: 1235959278}
   m_Father: {fileID: 2073063640}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11796,7 +12151,7 @@ GameObject:
   - component: {fileID: 1621571838}
   m_Layer: 6
   m_Name: tile-empty (16)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11894,7 +12249,7 @@ GameObject:
   - component: {fileID: 1625830082}
   m_Layer: 6
   m_Name: tile-empty (98)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11992,7 +12347,7 @@ GameObject:
   - component: {fileID: 1673289734}
   m_Layer: 6
   m_Name: tile-empty (73)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12090,7 +12445,7 @@ GameObject:
   - component: {fileID: 1749440887}
   m_Layer: 6
   m_Name: tile-empty (17)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12188,7 +12543,7 @@ GameObject:
   - component: {fileID: 1768823924}
   m_Layer: 6
   m_Name: tile-empty (45)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12285,7 +12640,7 @@ GameObject:
   - component: {fileID: 1788596577}
   m_Layer: 0
   m_Name: CustomCursor
-  m_TagString: Untagged
+  m_TagString: CustomCursor
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12382,7 +12737,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -12409,7 +12764,7 @@ GameObject:
   - component: {fileID: 1825959676}
   - component: {fileID: 1825959675}
   - component: {fileID: 1825959678}
-  - component: {fileID: 1825959677}
+  - component: {fileID: 1825959679}
   m_Layer: 5
   m_Name: BuildingB
   m_TagString: Untagged
@@ -12429,6 +12784,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1039113264}
   - {fileID: 75170728}
   - {fileID: 45979570}
   - {fileID: 656014331}
@@ -12478,25 +12834,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825959673}
   m_CullTransparentMesh: 1
---- !u!114 &1825959677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825959673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3daf0c8371b8155438e387bb7d29822d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goldCost: 1
-  gemCost: 1
-  goldCostText: {fileID: 404263757}
-  gemCostText: {fileID: 556067975}
-  buildingIndex: 1
-  buildingPrefab: {fileID: 6436151598070868463, guid: ac84e417cbace384fa7578c3d454bb59, type: 3}
-  building: {fileID: 0}
 --- !u!114 &1825959678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12540,7 +12877,40 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1825959675}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 754854741}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GetClickedBuilding
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1825959679}
+          m_ObjectArgumentAssemblyTypeName: BuildingCardVariables, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1825959679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825959673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c29832c6bcdfe4897bc60933357073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: House
+  goldCost: 1
+  gemCost: 1
+  tilePositions:
+  - {x: -0.4, y: 0.4}
+  - {x: -0.4, y: -0.4}
+  - {x: 0.4, y: -0.4}
+  goldIncreaseValue: 0
+  gemIncreaseValue: 0
 --- !u!1 &1832475744
 GameObject:
   m_ObjectHideFlags: 0
@@ -12572,11 +12942,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 845125162}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832475746
@@ -12662,13 +13032,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 754854741}
-  vacantColor: {r: 0.69411767, g: 0.9921569, b: 0.34901962, a: 0.7490196}
-  occupiedColor: {r: 0.9921569, g: 0.427451, b: 0.2509804, a: 0.7490196}
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
   canvas: {fileID: 2133959585}
-  goldTransform: {fileID: 1239694122}
-  gemTransform: {fileID: 559018534}
-  textPrefab: {fileID: 1395622607672280603, guid: 8473311899256224f99108510a99425c, type: 3}
+  nearestTileList: []
+  vacantColor: {r: 0, g: 1, b: 0, a: 0.5019608}
+  occupiedColor: {r: 1, g: 0, b: 0, a: 0.5019608}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  goldTransform: {fileID: 0}
+  gemTransform: {fileID: 0}
+  textPrefab: {fileID: 0}
 --- !u!1 &1887497643
 GameObject:
   m_ObjectHideFlags: 0
@@ -12701,7 +13072,7 @@ RectTransform:
   m_Children:
   - {fileID: 115870218}
   m_Father: {fileID: 544120444}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12759,7 +13130,7 @@ GameObject:
   - component: {fileID: 1932344684}
   m_Layer: 6
   m_Name: tile-empty (49)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12857,7 +13228,7 @@ GameObject:
   - component: {fileID: 1932697870}
   m_Layer: 6
   m_Name: tile-empty (46)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12955,7 +13326,7 @@ GameObject:
   - component: {fileID: 1942523582}
   m_Layer: 6
   m_Name: tile-empty (62)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13053,7 +13424,7 @@ GameObject:
   - component: {fileID: 1963319585}
   m_Layer: 6
   m_Name: tile-empty (33)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13151,7 +13522,7 @@ GameObject:
   - component: {fileID: 1974427000}
   m_Layer: 6
   m_Name: tile-empty (11)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13249,7 +13620,7 @@ GameObject:
   - component: {fileID: 1976416309}
   m_Layer: 6
   m_Name: tile-empty (81)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13347,7 +13718,7 @@ GameObject:
   - component: {fileID: 1979879069}
   m_Layer: 6
   m_Name: tile-empty (37)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13445,7 +13816,7 @@ GameObject:
   - component: {fileID: 1988634442}
   m_Layer: 6
   m_Name: tile-empty (60)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13595,7 +13966,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -13675,7 +14046,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 90
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -13703,7 +14074,7 @@ GameObject:
   - component: {fileID: 2025983729}
   m_Layer: 6
   m_Name: tile-empty (94)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13801,7 +14172,7 @@ GameObject:
   - component: {fileID: 2055117079}
   m_Layer: 6
   m_Name: tile-empty (57)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13898,7 +14269,7 @@ GameObject:
   - component: {fileID: 2073063642}
   - component: {fileID: 2073063641}
   - component: {fileID: 2073063644}
-  - component: {fileID: 2073063643}
+  - component: {fileID: 2073063645}
   m_Layer: 5
   m_Name: BuildingE
   m_TagString: Untagged
@@ -13918,6 +14289,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1275373261}
   - {fileID: 1311161197}
   - {fileID: 1584570651}
   - {fileID: 1611313471}
@@ -13967,25 +14339,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073063639}
   m_CullTransparentMesh: 1
---- !u!114 &2073063643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073063639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3daf0c8371b8155438e387bb7d29822d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goldCost: 3
-  gemCost: 2
-  goldCostText: {fileID: 1269001369}
-  gemCostText: {fileID: 1235959279}
-  buildingIndex: 4
-  buildingPrefab: {fileID: 6436151598070868463, guid: ac84e417cbace384fa7578c3d454bb59, type: 3}
-  building: {fileID: 0}
 --- !u!114 &2073063644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14029,7 +14382,122 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2073063641}
   m_OnClick:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 754854741}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GetClickedBuilding
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2073063645}
+          m_ObjectArgumentAssemblyTypeName: BuildingCardVariables, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2073063645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073063639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c29832c6bcdfe4897bc60933357073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: Boat
+  goldCost: 3
+  gemCost: 2
+  tilePositions:
+  - {x: -0.8, y: 0.4}
+  - {x: 0, y: 0.4}
+  - {x: 0.8, y: 0.4}
+  - {x: -0.8, y: -0.4}
+  - {x: 0, y: -0.4}
+  goldIncreaseValue: 0
+  gemIncreaseValue: 0
+--- !u!1 &2093142308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093142309}
+  - component: {fileID: 2093142311}
+  - component: {fileID: 2093142310}
+  m_Layer: 5
+  m_Name: BuildingNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2093142309
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093142308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 845125162}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 85}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2093142310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093142308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
       m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NAME
+--- !u!222 &2093142311
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093142308}
+  m_CullTransparentMesh: 1
 --- !u!1 &2113125126
 GameObject:
   m_ObjectHideFlags: 0
@@ -14043,7 +14511,7 @@ GameObject:
   - component: {fileID: 2113125129}
   m_Layer: 6
   m_Name: tile-empty (6)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14141,7 +14609,7 @@ GameObject:
   - component: {fileID: 2125179198}
   m_Layer: 6
   m_Name: tile-empty (25)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

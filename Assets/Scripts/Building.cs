@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Building : MonoBehaviour
 {
@@ -23,20 +24,30 @@ public class Building : MonoBehaviour
     public float IncreaseCountdown;
     private float nextIncreaseTime;
 
+    public GameObject progressBar;
+    private Text progressBarValue;
+
     private void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
         nextIncreaseTime = IncreaseCountdown;
         canvas = GameObject.FindGameObjectWithTag("Canvas");
-        goldTransform = canvas.transform.FindChild("Gold").transform;
-        gemTransform = canvas.transform.FindChild("Gem").transform;
+        goldTransform = canvas.transform.Find("Gold").transform;
+        gemTransform = canvas.transform.Find("Gem").transform;
+        progressBarValue = progressBar.GetComponentInChildren<Text>();
+
+        Instantiate(progressBar, new Vector3(transform.position.x, transform.position.y + 0.4f, transform.position.z), Quaternion.identity, canvas.transform);
+
     }
 
     private void Update()
     {
-        if (Time.time > nextIncreaseTime) 
+        progressBarValue.text = nextIncreaseTime.ToString();
+        nextIncreaseTime -= 1 * Time.deltaTime;
+
+        if (nextIncreaseTime <= 0) 
         {
-            nextIncreaseTime = Time.time + IncreaseCountdown;
+            nextIncreaseTime = IncreaseCountdown;
 
             gameManager.gold += goldIncrease;
             gameManager.gem += gemIncrease;
@@ -47,13 +58,14 @@ public class Building : MonoBehaviour
             gemFloatingText = Instantiate(textPrefab, gemTransform.position, Quaternion.identity, canvas.transform);
             gemFloatingText.GetComponent<FloatingText>().text.text = "+" + gemIncrease;
 
-            if (BuildingIndex == 0) 
+            if (BuildingIndex == 0)
             {
-            buildingGoldFloatingText = Instantiate(textPrefab, new Vector3(transform.position.x - 0.4f, transform.position.y, transform.position.z), Quaternion.identity, canvas.transform);
-            buildingGoldFloatingText.GetComponent<FloatingText>().text.text = "+" + goldIncrease;
-            buildingGemFloatingText = Instantiate(textPrefab, new Vector3(transform.position.x + 0.4f, transform.position.y, transform.position.z), Quaternion.identity, canvas.transform);
-            buildingGemFloatingText.GetComponent<FloatingText>().text.text = "+" + gemIncrease;
+                buildingGoldFloatingText = Instantiate(textPrefab, new Vector3(transform.position.x - 0.4f, transform.position.y, transform.position.z), Quaternion.identity, canvas.transform);
+                buildingGoldFloatingText.GetComponent<FloatingText>().text.text = "+" + goldIncrease;
+                buildingGemFloatingText = Instantiate(textPrefab, new Vector3(transform.position.x + 0.4f, transform.position.y, transform.position.z), Quaternion.identity, canvas.transform);
+                buildingGemFloatingText.GetComponent<FloatingText>().text.text = "+" + gemIncrease;
             }
         }
     }
+
 }
