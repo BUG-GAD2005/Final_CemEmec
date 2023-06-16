@@ -7,9 +7,13 @@ public class Building : MonoBehaviour
 {
     private GameManager gameManager;
 
+    [SerializeField] private GameObject buildingCounterPrefab;
+    private Slider slider;
+    private Text counterText;
+
     [HideInInspector] public int goldIncrease;
     [HideInInspector] public int gemIncrease;
-    private float increaseCountdown;
+    [HideInInspector] public float increaseCountdown;
     private float nextIncreaseTime;
 
     private void Start()
@@ -21,15 +25,30 @@ public class Building : MonoBehaviour
         gemIncrease = gameManager.activeBuildingCardVariables.gemIncreaseValue;
 
         nextIncreaseTime = increaseCountdown;
+
+        Vector2 spawnPoint = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y + 0.4f);
+        slider = Instantiate(buildingCounterPrefab, spawnPoint, Quaternion.identity, gameManager.canvas.transform).GetComponentInChildren<Slider>();
+        counterText = slider.gameObject.GetComponentInChildren<Text>();
+
+        counterText.text = increaseCountdown.ToString("F0");
+
+        slider.minValue = 0;
+        slider.maxValue = increaseCountdown;
+        slider.wholeNumbers = false;
+        slider.value = slider.minValue;
     }
 
     private void Update()
     {
         nextIncreaseTime -= 1 * Time.deltaTime;
+        counterText.text = nextIncreaseTime.ToString("F0");
+        slider.value += Time.deltaTime;
 
         if (nextIncreaseTime <= 0) 
         {
             nextIncreaseTime = increaseCountdown;
+            counterText.text = increaseCountdown.ToString("F0");
+            slider.value = slider.minValue;
 
             gameManager.gold += goldIncrease;
             gameManager.gem += gemIncrease;
@@ -40,7 +59,4 @@ public class Building : MonoBehaviour
             gameManager.SpawnBuildingGeneratedFloatingTexts(this.gameObject);
         }
     }
-
-    
-
 }

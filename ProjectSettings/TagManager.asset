@@ -9,6 +9,7 @@ TagManager:
   - Tile
   - Grid
   - BuildingCard
+  - Building
   layers:
   - Default
   - TransparentFX

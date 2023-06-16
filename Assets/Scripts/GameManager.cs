@@ -10,8 +10,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int gem;
     private List<Button> buildingCardButtons;
 
-    private GameObject canvas;
+    [HideInInspector] public GameObject canvas;
     [HideInInspector] private GameObject grid;
+    [HideInInspector] public GameObject buildingHolder;
     [HideInInspector] public List<GameObject> tiles;
 
     [HideInInspector] private GameObject customCursor;
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
         resourceView = gameObject.GetComponent<ResourceView>();
         resourceView.SetGoldAndGemView(gold, gem);
         canvas = GameObject.FindGameObjectWithTag("Canvas");
+        buildingHolder = GameObject.Find("BuildingHolder");
 
         GetBuildingCardButtons();
         SetBuildingCardButtonsInteractibility();
@@ -233,7 +235,7 @@ public class GameManager : MonoBehaviour
                 pickedTiles[0].transform.position.x + distanceBtwMouseAndBlock0.x,
                 pickedTiles[0].transform.position.y + distanceBtwMouseAndBlock0.y);
 
-            GameObject activeBuildingToPlace = Instantiate(buildingToPlace, spawnPoint, Quaternion.identity);
+            GameObject activeBuildingToPlace = Instantiate(buildingToPlace, spawnPoint, Quaternion.identity, buildingHolder.transform);
 
             SpawnResourceFloatingTexts();
             SpawnBuildingFloatingTexts(spawnPoint);

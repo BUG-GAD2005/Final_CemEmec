@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -75778597180890288}
   m_Layer: 0
   m_Name: BuildingPrefab
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,12 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a088438ed5c00848ba994c00f4eab83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textPrefab: {fileID: 0}
-  canvas: {fileID: 0}
-  goldTransform: {fileID: 0}
-  gemTransform: {fileID: 0}
-  BuildingIndex: 0
+  buildingCounterPrefab: {fileID: 682539278958247445, guid: f0bcca41d55041e4cb54a5357a2bfb81, type: 3}
   goldIncrease: 0
   gemIncrease: 0
-  IncreaseCountdown: 0
-  progressBar: {fileID: 0}
