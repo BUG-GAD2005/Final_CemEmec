@@ -6106,6 +6106,7 @@ GameObject:
   - component: {fileID: 754854741}
   - component: {fileID: 754854742}
   - component: {fileID: 754854743}
+  - component: {fileID: 754854744}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6140,9 +6141,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b261054dc962584c93807505524d894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startGold: 10
+  startGem: 10
   gold: 10
   gem: 10
   canvas: {fileID: 0}
+  buildingHolder: {fileID: 0}
   tiles: []
   buildingPrefab: {fileID: 3353606006593919141, guid: 1f58b3e4da9cf47408fbaad4a12049f8, type: 3}
   floatingText: {fileID: 1395622607672280603, guid: 8473311899256224f99108510a99425c, type: 3}
@@ -6180,6 +6184,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goldValueText: {fileID: 498248411}
   gemValueText: {fileID: 1411499463}
+--- !u!114 &754854744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754854739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd875b86762bc0646be2361f4df3e964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &762015828
 GameObject:
   m_ObjectHideFlags: 0

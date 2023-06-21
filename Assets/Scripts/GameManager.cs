@@ -1,13 +1,17 @@
 using System;
 using System.Collections;
+using System.IO;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] public int gold;
-    [SerializeField] public int gem;
+    [SerializeField] private int startGold;
+    [SerializeField] private int startGem;
+
+    [HideInInspector] public int gold;
+    [HideInInspector] public int gem;
     private List<Button> buildingCardButtons;
 
     [HideInInspector] public GameObject canvas;
@@ -34,8 +38,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Color occupiedColor;
     [SerializeField] private Color defaultColor;
 
+    private string saveFilePath = "saveData.json";
+    private GameData gameData;
+
     private void Start()
     {
+        gold = startGold;
+        gem = startGem;
+
         resourceView = gameObject.GetComponent<ResourceView>();
         resourceView.SetGoldAndGemView(gold, gem);
         canvas = GameObject.FindGameObjectWithTag("Canvas");
@@ -57,6 +67,29 @@ public class GameManager : MonoBehaviour
             isSetColor = false;
             SetColor();
         }
+    }
+
+    private void OnDestroy()
+    {
+        SaveGame();
+    }
+
+    private void SaveGame()
+    {
+        gameData = new GameData();
+
+        gameData.gold = gold;
+        gameData.gem = gem;
+        gameData.buildings = new List<GameObject>();
+
+        for (int i = 0; i < buildingHolder.transform.childCount; i++)
+        {
+            gameData.buildings.Add(buildingHolder.transform.GetChild(i).gameObject);
+        }
+
+        string jsonData = JsonUtility.ToJson(gameData);
+
+        File.WriteAllText(saveFilePath, jsonData);
     }
 
     private void SetGridTilemap()
