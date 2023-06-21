@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         buildingHolder = GameObject.Find("BuildingHolder");
-        LoadGame();
+        
 
 
         resourceView = gameObject.GetComponent<ResourceView>();
@@ -58,10 +58,17 @@ public class GameManager : MonoBehaviour
 
         customCursor = GameObject.FindGameObjectWithTag("CustomCursor");
         tilePrefabCreator = gameObject.GetComponent<TilePrefabCreator>();
+
+        LoadGame();
     }
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
         if (isSetColor)
         {
             isSetColor = false;
@@ -112,6 +119,22 @@ public class GameManager : MonoBehaviour
         {
             gold = startGold;
             gem = startGem;
+        }
+    }
+
+    public void ResetGame() 
+    {
+        if (File.Exists(saveFilePath))
+        {
+            File.Delete(saveFilePath);
+        }
+
+        gold = startGold;
+        gem = startGem;
+
+        for (int i = 0; i < buildingHolder.transform.childCount; i++)
+        {
+            Destroy(buildingHolder.transform.GetChild(i).gameObject);
         }
     }
 
