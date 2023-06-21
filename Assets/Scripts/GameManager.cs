@@ -43,13 +43,13 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        gold = startGold;
-        gem = startGem;
+        buildingHolder = GameObject.Find("BuildingHolder");
+        LoadGame();
+
 
         resourceView = gameObject.GetComponent<ResourceView>();
         resourceView.SetGoldAndGemView(gold, gem);
         canvas = GameObject.FindGameObjectWithTag("Canvas");
-        buildingHolder = GameObject.Find("BuildingHolder");
 
         GetBuildingCardButtons();
         SetBuildingCardButtonsInteractibility();
@@ -90,6 +90,29 @@ public class GameManager : MonoBehaviour
         string jsonData = JsonUtility.ToJson(gameData);
 
         File.WriteAllText(saveFilePath, jsonData);
+    }
+
+    private void LoadGame() 
+    {
+        if (File.Exists(saveFilePath)) 
+        {
+            string jsonData = File.ReadAllText(saveFilePath);
+
+            gameData = JsonUtility.FromJson<GameData>(jsonData);
+
+            gold = gameData.gold;
+            gem = gameData.gem;
+
+            foreach(GameObject buildings in gameData.buildings) 
+            {
+                Instantiate(buildings, buildings.transform.position, Quaternion.identity, buildingHolder.transform);
+            }
+        }
+        else 
+        {
+            gold = startGold;
+            gem = startGem;
+        }
     }
 
     private void SetGridTilemap()
