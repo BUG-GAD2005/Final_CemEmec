@@ -44,22 +44,21 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         buildingHolder = GameObject.Find("BuildingHolder");
-        
-
 
         resourceView = gameObject.GetComponent<ResourceView>();
         resourceView.SetGoldAndGemView(gold, gem);
         canvas = GameObject.FindGameObjectWithTag("Canvas");
 
         GetBuildingCardButtons();
-        SetBuildingCardButtonsInteractibility();
-
         SetGridTilemap();
 
         customCursor = GameObject.FindGameObjectWithTag("CustomCursor");
         tilePrefabCreator = gameObject.GetComponent<TilePrefabCreator>();
 
         LoadGame();
+
+        resourceView.SetGoldAndGemView(gold, gem);
+        SetBuildingCardButtonsInteractibility();
     }
 
     private void Update()
@@ -132,10 +131,25 @@ public class GameManager : MonoBehaviour
         gold = startGold;
         gem = startGem;
 
+        foreach(GameObject tile in tiles) 
+        {
+            tile.GetComponent<Tile>().isOccupied = false;
+        }
+
+        for(int i = 0; i < GameObject.Find("CounterHolder").transform.childCount; i++) 
+        {
+            Destroy(GameObject.Find("CounterHolder").transform.GetChild(i).gameObject);
+        }
+
         for (int i = 0; i < buildingHolder.transform.childCount; i++)
         {
             Destroy(buildingHolder.transform.GetChild(i).gameObject);
         }
+
+
+
+        resourceView.SetGoldAndGemView(gold, gem);
+        SetBuildingCardButtonsInteractibility();
     }
 
     private void SetGridTilemap()

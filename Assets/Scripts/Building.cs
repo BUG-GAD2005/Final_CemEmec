@@ -27,7 +27,7 @@ public class Building : MonoBehaviour
         nextIncreaseTime = increaseCountdown;
 
         Vector2 spawnPoint = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y + 0.4f);
-        slider = Instantiate(buildingCounterPrefab, spawnPoint, Quaternion.identity, gameManager.canvas.transform).GetComponentInChildren<Slider>();
+        slider = Instantiate(buildingCounterPrefab, spawnPoint, Quaternion.identity, GameObject.Find("CounterHolder").transform).GetComponentInChildren<Slider>();
         counterText = slider.gameObject.GetComponentInChildren<Text>();
 
         counterText.text = increaseCountdown.ToString("F0");
