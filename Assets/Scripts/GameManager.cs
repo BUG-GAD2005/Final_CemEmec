@@ -86,7 +86,14 @@ public class GameManager : MonoBehaviour
 
         gameData.gold = gold;
         gameData.gem = gem;
+
+        gameData.buildingsTransform = new List<Transform>();
         gameData.buildings = new List<GameObject>();
+
+        for (int i = 0; i < buildingHolder.transform.childCount; i++)
+        {
+            gameData.buildingsTransform.Add(buildingHolder.transform.GetChild(i).transform);
+        }
 
         for (int i = 0; i < buildingHolder.transform.childCount; i++)
         {
@@ -109,9 +116,10 @@ public class GameManager : MonoBehaviour
             gold = gameData.gold;
             gem = gameData.gem;
 
-            foreach(GameObject buildings in gameData.buildings) 
+            for (int i = 0; i < gameData.buildings.Count; i++)
             {
-                Instantiate(buildings, buildings.transform.position, Quaternion.identity, buildingHolder.transform);
+
+                Instantiate(gameData.buildings[i], gameData.buildingsTransform[i].position, Quaternion.identity, buildingHolder.transform);
             }
         }
         else 
@@ -175,7 +183,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void SetBuildingCardButtonsInteractibility()
+    public void SetBuildingCardButtonsInteractibility()
     {
         foreach (Button button in buildingCardButtons)
         {

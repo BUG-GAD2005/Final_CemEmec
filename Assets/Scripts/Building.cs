@@ -53,6 +53,7 @@ public class Building : MonoBehaviour
             gameManager.gold += goldIncrease;
             gameManager.gem += gemIncrease;
 
+            gameManager.SetBuildingCardButtonsInteractibility();
             gameManager.gameObject.GetComponent<ResourceView>().SetGoldAndGemView(gameManager.gold, gameManager.gem);
                 
             gameManager.SpawnGeneratedResourceFloatingTexts(this.gameObject);
