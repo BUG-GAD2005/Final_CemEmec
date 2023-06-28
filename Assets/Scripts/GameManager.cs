@@ -5,21 +5,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-[System.Serializable]
-public class SerializableGameObject
-{
-    public Vector2 position;
-
-    public List<Vector2> tilePositions;
-}
-
-[System.Serializable]
-public class SaveData
-{
-    public List<SerializableGameObject> serializedObjects = new List<SerializableGameObject>();
-}
-
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private int startGold;
@@ -33,7 +18,6 @@ public class GameManager : MonoBehaviour
     [HideInInspector] private GameObject grid;
     [HideInInspector] public GameObject buildingHolder;
     [HideInInspector] public List<GameObject> tiles;
-
 
     [SerializeField] private GameObject buildingTilePrefab;
     [HideInInspector] private GameObject customCursor;
@@ -56,9 +40,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Color defaultColor;
 
     private string saveFilePath = "saveData.json";
-    private string dataFilePath = "gameData.json";
     private GameData gameData;
-    private SaveData saveData;
 
     private void Start()
     {
@@ -102,40 +84,26 @@ public class GameManager : MonoBehaviour
     private void SaveGame()
     {
         gameData = new GameData();
-        saveData = new SaveData();
-        gameData.isOccupied = new List<bool>();
 
         gameData.gold = gold;
         gameData.gem = gem;
 
-        GameObject[] buildings = GameObject.FindGameObjectsWithTag("Building");
+        gameData.buildingLocation = new List<Vector2>();
+        gameData.isTileOccupied = new List<bool>();
 
-        for(int i=0; i < tiles.Count; i++) 
+        for (int i = 0; i < buildingHolder.transform.childCount; i++)
         {
-            gameData.isOccupied.Add(tiles[i].GetComponent<Tile>().isOccupied);
+            gameData.buildingLocation.Add(buildingHolder.transform.GetChild(i).transform.position);
         }
 
-        foreach(GameObject building in buildings) 
+        for (int i = 0; i < tiles.Count; i++)
         {
-            SerializableGameObject serializedGameObject = new SerializableGameObject();
-
-            serializedGameObject.position = building.transform.position;
-
-            for(int i = 0; i < building.transform.childCount; i++) 
-            {
-                serializedGameObject.tilePositions.Add(building.transform.GetChild(i).transform.position); 
-            }
-
-            saveData.serializedObjects.Add(serializedGameObject);
+            gameData.isTileOccupied.Add(tiles[i].GetComponent<Tile>().isOccupied);
         }
-
 
         string jsonData = JsonUtility.ToJson(gameData);
-        string jsonSave = JsonUtility.ToJson(saveData);
-
 
         File.WriteAllText(saveFilePath, jsonData);
-        File.WriteAllText(dataFilePath, jsonSave);
     }
 
     private void LoadGame() 
@@ -149,29 +117,18 @@ public class GameManager : MonoBehaviour
             gold = gameData.gold;
             gem = gameData.gem;
 
-            for(int i = 0; i < tiles.Count; i++) 
+            for (int i = 0; i < gameData.buildingLocation.Count; i++)
             {
-                tiles[i].GetComponent<Tile>().isOccupied = gameData.isOccupied[i];
-
-                if (gameData.isOccupied[i]) 
-                {
-                    Instantiate(tilePrefabCreator.TilePrefab, tiles[i].transform.position, Quaternion.identity, buildingHolder.transform);
-                }
+                Instantiate(buildingPrefab, gameData.buildingLocation[i], Quaternion.identity, buildingHolder.transform);
             }
-        }
-        if (File.Exists(dataFilePath)) 
-        {
-            string jsonSave = File.ReadAllText(dataFilePath);
 
-            saveData = JsonUtility.FromJson<SaveData>(jsonSave);
-
-            foreach(SerializableGameObject serializedGameObject in saveData.serializedObjects) 
+            for (int i=0; i < tiles.Count; i++) 
             {
-                GameObject building = Instantiate(buildingPrefab, serializedGameObject.position, Quaternion.identity, buildingHolder.transform);
+                tiles[i].GetComponent<Tile>().isOccupied = gameData.isTileOccupied[i];
 
-                for(int i = 0; i < serializedGameObject.tilePositions.Count; i++) 
+                if (gameData.isTileOccupied[i]) 
                 {
-                    Instantiate(buildingTilePrefab, serializedGameObject.tilePositions[i], Quaternion.identity, building.transform);
+                    Instantiate(buildingTilePrefab, tiles[i].transform.position, Quaternion.identity, buildingHolder.transform);
                 }
             }
         }

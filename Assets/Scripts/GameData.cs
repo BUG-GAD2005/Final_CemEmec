@@ -5,5 +5,6 @@ public class GameData
     public int gold;
     public int gem;
 
-    public List<bool> isOccupied;
+    public List<bool> isTileOccupied;
+    public List<Vector2> buildingLocation;
 }
