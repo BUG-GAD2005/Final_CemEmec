@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TilePrefabCreator : MonoBehaviour
 {
-    [SerializeField] private GameObject TilePrefab;
+    [SerializeField] public GameObject TilePrefab;
     [HideInInspector] public List<GameObject> tileGameObjects;
 
     public void CreateTiles(GameObject buildingPrefab,Vector2[] tilePositions) 

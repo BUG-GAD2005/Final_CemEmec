@@ -4,6 +4,6 @@ public class GameData
 {
     public int gold;
     public int gem;
-    public List<Transform> buildingsTransform;
-    public List<GameObject> buildings;
+
+    public List<bool> isOccupied;
 }
