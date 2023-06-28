@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public GameObject buildingHolder;
     [HideInInspector] public List<GameObject> tiles;
 
+    [SerializeField] private GameObject buildingTilePrefab;
     [HideInInspector] private GameObject customCursor;
     [SerializeField] private GameObject buildingPrefab;
     [SerializeField] private GameObject floatingText;
@@ -87,17 +88,17 @@ public class GameManager : MonoBehaviour
         gameData.gold = gold;
         gameData.gem = gem;
 
-        gameData.buildingsTransform = new List<Transform>();
-        gameData.buildings = new List<GameObject>();
+        gameData.buildingLocation = new List<Vector2>();
+        gameData.isTileOccupied = new List<bool>();
 
         for (int i = 0; i < buildingHolder.transform.childCount; i++)
         {
-            gameData.buildingsTransform.Add(buildingHolder.transform.GetChild(i).transform);
+            gameData.buildingLocation.Add(buildingHolder.transform.GetChild(i).transform.position);
         }
 
-        for (int i = 0; i < buildingHolder.transform.childCount; i++)
+        for (int i = 0; i < tiles.Count; i++)
         {
-            gameData.buildings.Add(buildingHolder.transform.GetChild(i).gameObject);
+            gameData.isTileOccupied.Add(tiles[i].GetComponent<Tile>().isOccupied);
         }
 
         string jsonData = JsonUtility.ToJson(gameData);
@@ -116,10 +117,19 @@ public class GameManager : MonoBehaviour
             gold = gameData.gold;
             gem = gameData.gem;
 
-            for (int i = 0; i < gameData.buildings.Count; i++)
+            for (int i = 0; i < gameData.buildingLocation.Count; i++)
             {
+                Instantiate(buildingPrefab, gameData.buildingLocation[i], Quaternion.identity, buildingHolder.transform);
+            }
 
-                Instantiate(gameData.buildings[i], gameData.buildingsTransform[i].position, Quaternion.identity, buildingHolder.transform);
+            for (int i=0; i < tiles.Count; i++) 
+            {
+                tiles[i].GetComponent<Tile>().isOccupied = gameData.isTileOccupied[i];
+
+                if (gameData.isTileOccupied[i]) 
+                {
+                    Instantiate(buildingTilePrefab, tiles[i].transform.position, Quaternion.identity, buildingHolder.transform);
+                }
             }
         }
         else 
